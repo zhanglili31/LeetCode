@@ -1,5 +1,5 @@
 package com.zhanglili31.LeetCode.Q53;
-import com.zhanglili31.LeetCode.Q53_最大子序和1.Solution;
+import com.zhanglili31.LeetCode.Q53_最大子序和1_暴力.Solution;
 
 public class Violent  {
 

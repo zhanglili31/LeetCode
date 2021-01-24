@@ -1,4 +1,4 @@
-package com.zhanglili31.LeetCode.Q53_最大子序和3;
+package com.zhanglili31.LeetCode.Q53_最大子序和3_二维数组动态规划优化_使用变量代替二维数组;
 //在接解法2的基础上直接使用一个变量代替二位数组
 //实际中不需要使用一个二位数组，使用一个变量即可
 

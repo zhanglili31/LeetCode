@@ -1,4 +1,4 @@
-package com.zhanglili31.LeetCode.Q53_最大子序和2;
+package com.zhanglili31.LeetCode.Q53_最大子序和2_二维数组动态规划;
 //使用一个二维数组保存求和的数据 存在一个递推关系
 // a[i][i]=nums[i];
 // a[i][j]=a[i][j - 1] + nums[j];

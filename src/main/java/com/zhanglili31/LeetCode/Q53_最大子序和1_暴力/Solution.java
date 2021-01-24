@@ -1,4 +1,4 @@
-package com.zhanglili31.LeetCode.Q53_最大子序和1;
+package com.zhanglili31.LeetCode.Q53_最大子序和1_暴力;
 //    使用暴力的方法，将所有的连续的子数组全部找出来，并且求和找出最大的出来
 //    未通过：超出时间限制
 public class Solution {
