@@ -1,16 +1,13 @@
-package com.zhanglili31.LeetCode.Q53_最大子序和;
-
+package com.zhanglili31.LeetCode.Q53_最大子序和1;
+//    使用暴力的方法，将所有的连续的子数组全部找出来，并且求和找出最大的出来
+//    未通过：超出时间限制
 public class Solution {
-
     public static void main(String[] args) {
         int[] a = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         Solution solution = new Solution();
         int res = solution.maxSubArray(a);
         System.out.println(res);
     }
-
-    //    使用暴力的方法，将所有的连续的子数组全部找出来，并且求和找出最大的出来
-//    但是这字方式：超出时间限制
     public int maxSubArray(int[] nums) {
         int maxValue = nums[0];
         int temp = 0;
