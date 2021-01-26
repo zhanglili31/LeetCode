@@ -7,6 +7,11 @@
       <option name="url" value="http://maven.waimai.test.sankuai.com/nexus-2.7.0-06/content/groups/public" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="meituan-offline-releases" />
+      <option name="name" value="Mei Tuan internal repository for released artifacts" />
+      <option name="url" value="http://maven.offline.sankuai.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="nexus-releases" />
       <option name="name" value="nexus-releases" />
       <option name="url" value="http://maven.waimai.test.sankuai.com/nexus-2.7.0-06/content/groups/public" />
@@ -20,6 +25,26 @@
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="http://maven.waimai.test.sankuai.com/nexus-2.7.0-06/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://maven.offline.sankuai.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="dianping-internal-releases" />
+      <option name="name" value="Mei Tuan internal repository for released artifacts" />
+      <option name="url" value="http://mvn.dianpingoa.com/dianping-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="meituan-offline-snapshots" />
+      <option name="name" value="Mei Tuan internal repository for snapshots artifacts" />
+      <option name="url" value="http://maven.offline.sankuai.com/nexus/content/groups/public-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="dianping-internal-snapshots" />
+      <option name="name" value="Mei Tuan internal repository for snapshots artifacts" />
+      <option name="url" value="http://mvn.dianpingoa.com/dianping-snapshots" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="jboss.community" />
