@@ -1,5 +1,6 @@
 package com.zhanglili31.LeetCode.Q62_不同路径_动态规划;
-
+//执行用时：0ms,在所有Java提交中击败了100.00%的用户
+//内存消耗：35.3MB,在所有Java提交中击败了52.70%的用户
 public class Solution {
     public int uniquePaths(int m, int n) {
         int[][] a = new int[m][n];
