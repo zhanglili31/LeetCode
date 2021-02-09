@@ -3,6 +3,7 @@ package com.zhanglili31.LeetCode.Q1143_最长公共子序列_动态规划;
 //1, 找出新增字符在长字符串中的序号index，
 //2  在aIndex中，对于所有的aIndex[i]<index,并且dp最大的。
 //3  不确定2是否能存在让dp[i]!=0||1,的index,因此还要对其他的index执行1，2操作。
+//这样想问题很复杂，思路不够清晰。
 class Solution {
     public static void main(String[] args) {
         new Solution().longestCommonSubsequence("pmjghexybyrgzczy", "hafcdqbgncrcbihkd");
