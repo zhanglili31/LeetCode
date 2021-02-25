@@ -5,7 +5,7 @@ package com.zhanglili31.LeetCode.Q1277_统计全长为1的正方形子矩阵_暴
 //        {1,1,1,1},
 //        {1,0,1,0}
 //        }
-//这种不算有边长为3的正方形。
+//这种不算有边长为3的正方形。不能通过
 public class Solution {
     public static void main(String[] args) {
         int[][] matrix={{0,1,1,1},{1,1,0,1},{1,1,1,1},{1,0,1,0}};
