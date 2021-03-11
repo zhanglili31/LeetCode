@@ -11,6 +11,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[100]相同的树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[100]相同的树.java" />
+              <option name="questionId" value="100" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[1047]删除字符串中的所有相邻重复项.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[1047]删除字符串中的所有相邻重复项.java" />
+              <option name="questionId" value="1128" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[10]正则表达式匹配.java">
           <value>
             <LeetcodeEditor>
@@ -48,6 +64,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[572]另一个树的子树.java" />
               <option name="questionId" value="572" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[617]合并二叉树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[617]合并二叉树.java" />
+              <option name="questionId" value="617" />
             </LeetcodeEditor>
           </value>
         </entry>
