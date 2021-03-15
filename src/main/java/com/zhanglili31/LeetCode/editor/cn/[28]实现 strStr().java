@@ -9,6 +9,7 @@ class ImplementStrstr {
     public static void main(String args) {
         Solution solution = new ImplementStrstr().new Solution();
         TreeNode r = CreateTree.deserialize("[5,4,2,3,3,7]");
+
         System.out.println(solution);
     }
 

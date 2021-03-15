@@ -40,11 +40,11 @@ public class CreateTree {
         while (queue.size() > 0 && i < strArr.length) {
             node = queue.poll();
             if (node != null) {
-                node.left = !"null".equals(strArr[i]) ?
+                node.left = i<strArr.length&&!"null".equals(strArr[i]) ?
                         new TreeNode(Integer.valueOf(strArr[i])) :
                         null;
                 i++;
-                node.right = !"null".equals(strArr[i]) ?
+                node.right = i<strArr.length&&!"null".equals(strArr[i]) ?
                         new TreeNode(Integer.valueOf(strArr[i])) :
                         null;
                 i++;
