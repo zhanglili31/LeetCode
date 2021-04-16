@@ -43,6 +43,7 @@
             </LeetcodeEditor>
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[1609]奇偶树.java">
           <value>
             <LeetcodeEditor>
@@ -59,6 +60,8 @@
             </LeetcodeEditor>
           </value>
         </entry>
+=======
+>>>>>>> 866b435a75d43c9204f1dc4f3755c6a76b23d109
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[572]另一个树的子树.java">
           <value>
             <LeetcodeEditor>
@@ -67,6 +70,7 @@
             </LeetcodeEditor>
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[617]合并二叉树.java">
           <value>
             <LeetcodeEditor>
@@ -75,6 +79,8 @@
             </LeetcodeEditor>
           </value>
         </entry>
+=======
+>>>>>>> 866b435a75d43c9204f1dc4f3755c6a76b23d109
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[6]Z 字形变换.java">
           <value>
             <LeetcodeEditor>
@@ -155,6 +161,7 @@
             </LeetcodeEditor>
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[面试题 04.10]检查子树.java">
           <value>
             <LeetcodeEditor>
@@ -163,6 +170,8 @@
             </LeetcodeEditor>
           </value>
         </entry>
+=======
+>>>>>>> 866b435a75d43c9204f1dc4f3755c6a76b23d109
       </map>
     </option>
   </component>
