@@ -44,6 +44,7 @@
           </value>
         </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[1609]奇偶树.java">
           <value>
             <LeetcodeEditor>
@@ -62,6 +63,16 @@
         </entry>
 =======
 >>>>>>> 866b435a75d43c9204f1dc4f3755c6a76b23d109
+=======
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[28]实现 strStr().java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[28]实现 strStr().java" />
+              <option name="questionId" value="28" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+>>>>>>> 4692f320d24e9e49865c49342901b4a14190a3fb
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[572]另一个树的子树.java">
           <value>
             <LeetcodeEditor>
