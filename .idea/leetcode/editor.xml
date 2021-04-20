@@ -11,11 +11,27 @@
             </LeetcodeEditor>
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[1022]从根到叶的二进制数之和.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[1022]从根到叶的二进制数之和.java" />
               <option name="questionId" value="1079" />
+=======
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[100]相同的树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[100]相同的树.java" />
+              <option name="questionId" value="100" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[1047]删除字符串中的所有相邻重复项.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[1047]删除字符串中的所有相邻重复项.java" />
+              <option name="questionId" value="1128" />
+>>>>>>> af9b1a1a7313476048906f5ddd3d73f78b99b581
             </LeetcodeEditor>
           </value>
         </entry>
@@ -67,6 +83,7 @@
             </LeetcodeEditor>
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[1530]好叶子节点对的数量.java">
           <value>
             <LeetcodeEditor>
@@ -131,6 +148,29 @@
             </LeetcodeEditor>
           </value>
         </entry>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[1609]奇偶树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[1609]奇偶树.java" />
+              <option name="questionId" value="1731" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[538]把二叉搜索树转换为累加树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[538]把二叉搜索树转换为累加树.java" />
+              <option name="questionId" value="538" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+=======
+>>>>>>> 866b435a75d43c9204f1dc4f3755c6a76b23d109
+=======
+>>>>>>> af9b1a1a7313476048906f5ddd3d73f78b99b581
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[28]实现 strStr().java">
           <value>
             <LeetcodeEditor>
@@ -139,6 +179,7 @@
             </LeetcodeEditor>
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[3]无重复字符的最长子串.java">
           <value>
             <LeetcodeEditor>
@@ -147,6 +188,9 @@
             </LeetcodeEditor>
           </value>
         </entry>
+=======
+>>>>>>> 4692f320d24e9e49865c49342901b4a14190a3fb
+>>>>>>> af9b1a1a7313476048906f5ddd3d73f78b99b581
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[572]另一个树的子树.java">
           <value>
             <LeetcodeEditor>
@@ -155,6 +199,7 @@
             </LeetcodeEditor>
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[589]N 叉树的前序遍历.java">
           <value>
             <LeetcodeEditor>
@@ -187,6 +232,9 @@
             </LeetcodeEditor>
           </value>
         </entry>
+=======
+<<<<<<< HEAD
+>>>>>>> af9b1a1a7313476048906f5ddd3d73f78b99b581
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[617]合并二叉树.java">
           <value>
             <LeetcodeEditor>
@@ -195,6 +243,11 @@
             </LeetcodeEditor>
           </value>
         </entry>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 866b435a75d43c9204f1dc4f3755c6a76b23d109
+>>>>>>> af9b1a1a7313476048906f5ddd3d73f78b99b581
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[6]Z 字形变换.java">
           <value>
             <LeetcodeEditor>
@@ -219,6 +272,7 @@
             </LeetcodeEditor>
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[865]具有所有最深节点的最小子树.java">
           <value>
             <LeetcodeEditor>
@@ -248,6 +302,13 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[998]最大二叉树 II.java" />
               <option name="questionId" value="1040" />
+=======
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[814]二叉树剪枝.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[814]二叉树剪枝.java" />
+              <option name="questionId" value="832" />
+>>>>>>> af9b1a1a7313476048906f5ddd3d73f78b99b581
             </LeetcodeEditor>
           </value>
         </entry>
@@ -307,6 +368,7 @@
             </LeetcodeEditor>
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[面试题 04.03]特定深度节点链表.java">
           <value>
             <LeetcodeEditor>
@@ -315,6 +377,19 @@
             </LeetcodeEditor>
           </value>
         </entry>
+=======
+<<<<<<< HEAD
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[面试题 04.10]检查子树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[面试题 04.10]检查子树.java" />
+              <option name="questionId" value="100229" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+=======
+>>>>>>> 866b435a75d43c9204f1dc4f3755c6a76b23d109
+>>>>>>> af9b1a1a7313476048906f5ddd3d73f78b99b581
       </map>
     </option>
   </component>
