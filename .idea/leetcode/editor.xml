@@ -19,6 +19,30 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[128]最长连续序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[128]最长连续序列.java" />
+              <option name="questionId" value="128" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[146]LRU 缓存机制.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[146]LRU 缓存机制.java" />
+              <option name="questionId" value="146" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[453]最小操作次数使数组元素相等.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[453]最小操作次数使数组元素相等.java" />
+              <option name="questionId" value="453" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
