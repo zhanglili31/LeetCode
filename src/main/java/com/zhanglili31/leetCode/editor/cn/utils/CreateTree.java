@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class CreateTree {
+    //层次遍历二叉树的结果，返回字符串
     public static String serialize(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
@@ -24,7 +25,7 @@ public class CreateTree {
     }
 
 
-    // Decodes your encoded data to tree.
+    // 输入是一个层次遍历的二叉树字符串，输出是一个对应的二叉树.
     public static TreeNode deserialize(String data) {
         if (data.equals("[]")) {
             return null;
