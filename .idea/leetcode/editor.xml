@@ -115,6 +115,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[236]二叉树的最近公共祖先.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[236]二叉树的最近公共祖先.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com236" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[236]二叉树的最近公共祖先.java" />
+              <option name="titleSlug" value="lowest-common-ancestor-of-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[393]UTF-8 编码验证.java">
           <value>
             <LeetcodeEditor>
