@@ -104,6 +104,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[156]上下翻转二叉树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[156]上下翻转二叉树.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com156" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[156]上下翻转二叉树.java" />
+              <option name="titleSlug" value="binary-tree-upside-down" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[208]实现 Trie (前缀树).java">
           <value>
             <LeetcodeEditor>
