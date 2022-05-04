@@ -4,7 +4,8 @@ import com.zhanglili31.leetCode.editor.cn.utils.CreateTree;
 import com.zhanglili31.leetCode.editor.cn.utils.TreeNode;
 import com.zhanglili31.leetCode.editor.cn.utils.CreateArray;
 
-import java.util.Arrays;
+import java.lang.reflect.Array;
+import java.util.*;
 
 //244 最短单词距离 II
 //2022-05-05 02:58:00
@@ -22,31 +23,30 @@ class ShortestWordDistanceIi {
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
-    //todo 244 fuck 提交没有通过，需要找出超时的原因。
+    //
     class WordDistance {
         String wordsDict[] = null;
+        Map<String, List<Integer>> map = new HashMap<String, List<Integer>>();
+
 
         public WordDistance(String[] wordsDict) {
             this.wordsDict = wordsDict;
-
+            for (int i = 0; i < wordsDict.length; i++) {
+                List<Integer> temp = map.getOrDefault(wordsDict[i], new ArrayList<>());
+                temp.add(i);
+                map.put(wordsDict[i], temp);
+            }
         }
 
         public int shortest(String word1, String word2) {
-            int points1 = Integer.MAX_VALUE, points2 = Integer.MAX_VALUE / 2;
-            int res = Integer.MAX_VALUE / 3;
-            System.out.println(word1 + " " + word2);
-            for (int i = 0; i < wordsDict.length; i++) {
-                if (wordsDict[i].equals(word1)) {
-                    points1 = i;
-                    res = Math.min(Math.abs(points1 - points2), res);
-                } else if (wordsDict[i].equals(word2)) {
-                    points2 = i;
-                    res = Math.min(Math.abs(points1 - points2), res);
+            Map<String, List<Integer>> map=this.map;
+            List<Integer> word1Points = map.get(word1);
+            List<Integer> word2Points = map.get(word2);
+            int res = Integer.MAX_VALUE;
+            for (int i = 0; i < word1Points.size(); i++) {
+                for (int j = 0; j < word2Points.size(); j++) {
+                    res = Math.min(Math.abs(word1Points.get(i) - word2Points.get(j)), res);
                 }
-                if (res == 1) {
-                    return res;
-                }
-
             }
             return res;
         }
