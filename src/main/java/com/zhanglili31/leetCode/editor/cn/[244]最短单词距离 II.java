@@ -25,12 +25,10 @@ class ShortestWordDistanceIi {
     //leetcode submit region begin(Prohibit modification and deletion)
     //
     class WordDistance {
-        String wordsDict[] = null;
         Map<String, List<Integer>> map = new HashMap<String, List<Integer>>();
 
 
         public WordDistance(String[] wordsDict) {
-            this.wordsDict = wordsDict;
             for (int i = 0; i < wordsDict.length; i++) {
                 List<Integer> temp = map.getOrDefault(wordsDict[i], new ArrayList<>());
                 temp.add(i);
@@ -39,7 +37,6 @@ class ShortestWordDistanceIi {
         }
 
         public int shortest(String word1, String word2) {
-            Map<String, List<Integer>> map=this.map;
             List<Integer> word1Points = map.get(word1);
             List<Integer> word2Points = map.get(word2);
             int res = Integer.MAX_VALUE;
