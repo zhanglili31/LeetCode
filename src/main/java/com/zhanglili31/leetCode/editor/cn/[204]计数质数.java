@@ -27,37 +27,36 @@ class CountPrimes {
     class Solution {
         public int countPrimes(int number) {
             int[] array = new int[number];
-            int res=0;
+            int res = 0;
             for (int i = 2; i < number; i++) {
-                if(array[i]==0){
-                    if (isPrime(i)) {
-                        res++;
-                        int x=2;
-                        int points = i * x;
-                        while (points < number) {
-                            x++;
-                            array[points]=-1;
-                            points=x*i;
-                        }
+                if (array[i] == 0) {
+                    res++;
+                    int x = 2;
+                    int points = i * x;
+                    while (points < number) {
+                        x++;
+                        array[points] = -1;
+                        points = x * i;
                     }
+
                 }
             }
             return res;
 
         }
-
-        public boolean isPrime(int number) {
-            for (int j = 2; j * j <= number; j++) {
-                if(number%j==0){
-                    return false;
-                }
-            }
-            return true;
-        }
+//
+//        public boolean isPrime(int number) {
+//            for (int j = 2; j * j <= number; j++) {
+//                if(number%j==0){
+//                    return false;
+//                }
+//            }
+//            return true;
+//        }
 
 
         //总是超时 无了大语,官方的这种方式也超时fuck，
-        public int countPrimes0(int n) {
+/*        public int countPrimes0(int n) {
             int res = 0;
             int init[] = {2, 3, 5, 7};
             for (int i = 0; i < init.length; i++) {
@@ -84,7 +83,7 @@ class CountPrimes {
 
             }
             return res;
-        }
+        }*/
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
