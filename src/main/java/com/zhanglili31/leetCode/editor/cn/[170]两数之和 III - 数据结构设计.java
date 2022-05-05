@@ -22,35 +22,25 @@ class TwoSumIiiDataStructureDesign {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class TwoSum {
-        List<Integer> list = new ArrayList<>();
+        List<Integer> array = new ArrayList<>();
+
 
         public TwoSum() {
 
         }
 
         public void add(int number) {
-            list.add(number);
-            Collections.sort(list, new Comparator<Integer>() {
-                @Override
-                public int compare(Integer o1, Integer o2) {
-                    return o1 - o2;
-                }
-            });
+            array.add(number);
 
         }
         //查找还有一种哈希的思路，有时间在写下。
         public boolean find(int value) {
-            System.out.println(list);
-            int i=0;
-            int j = list.size() - 1;
-            int sum=0;
-            while(i<j){
-                sum = list.get(i) + list.get(j);
-                if(value==sum)return true;
-                if (sum > value) {
-                    j--;
+            Set<Integer> set=new HashSet<Integer>();
+            for (int i :array) {
+                if (set.contains(value - i)) {
+                    return true;
                 }else{
-                    i++;
+                    set.add(i);
                 }
             }
             return false;
