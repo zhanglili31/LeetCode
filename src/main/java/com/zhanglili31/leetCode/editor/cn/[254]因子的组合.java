@@ -18,7 +18,7 @@ class FactorCombinations {
         char[] charArray = {'t', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e'};
         int temp[] = CreateArray.getArray(20, 100);
         System.out.println(Arrays.toString(temp));
-        System.out.println(solution.getFactors(8192));
+        System.out.println(solution.getFactors(12));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -27,6 +27,36 @@ class FactorCombinations {
         List<List<Integer>> res = new LinkedList<>();
 
         public List<List<Integer>> getFactors(int n) {
+            return DFS(n, 2);
+
+        }
+
+        //解题思路一：参考：https://leetcode-cn.com/problems/factor-combinations/solution/c-qu-zhong-fu-si-lu-qing-xi-dai-ma-jian-gww3w/
+        public List<List<Integer>> DFS(int n, int i) {
+            int sqrt = (int) Math.sqrt(n) + 1;
+            List<List<Integer>> res = new ArrayList<>();
+            for (; i < sqrt; i++) {
+                if (n % i == 0) {
+                    List<Integer> array = new ArrayList<>();
+                    array.add(i);
+                    array.add(n / i);
+                    res.add(array);
+                    List<List<Integer>> sub = DFS(n / i, i);
+                    for (int j = 0; j < sub.size(); j++) {
+                        List<Integer> temp = new ArrayList<>();
+                        temp.addAll(array);
+                        temp.remove(temp.size() - 1);
+                        temp.addAll(sub.get(j));
+                        res.add(temp);
+                    }
+                }
+            }
+            return res;
+        }
+
+
+        // 这种比较复杂， f(n)=f(factor*num)
+        public List<List<Integer>> getFactors0(int n) {
             this.primes = countPrimes(n);
             recursion(n, new ArrayList<Integer>());
             for (int i = 0; i < res.size(); i++) {
@@ -59,9 +89,10 @@ class FactorCombinations {
                 if (temp1.size() != temp2.size()) {
                     continue;
                 } else {
-                    for (int k = i+1; k < res.size(); k++) {
+                    for (int k = i + 1; k < res.size(); k++) {
                         temp2 = res.get(k);
-                        if(temp1.size()!=temp2.size())break;
+                        if (temp1.size() != temp2.size())
+                            break;
                         boolean flag = true;
                         for (int j = 0; j < temp1.size(); j++) {
                             if (temp1.get(j) != temp2.get(j)) {
