@@ -6,12 +6,12 @@ import com.zhanglili31.leetCode.editor.cn.utils.CreateArray;
 
 import java.util.Arrays;
 
-//261 以图判树
-//2022-05-07 05:39:55
-class GraphValidTree {
+//323 无向图中连通分量的数目
+//2022-05-07 06:27:55
+class NumberOfConnectedComponentsInAnUndirectedGraph {
 
     public static void main(String[] args) {
-        Solution solution = new GraphValidTree().new Solution();
+        Solution solution = new NumberOfConnectedComponentsInAnUndirectedGraph().new Solution();
         TreeNode root = CreateTree.deserialize("[1,2,3,4,5,6,7,8,9]");
         int[][] a = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
         String testStr = "hello";
@@ -23,9 +23,6 @@ class GraphValidTree {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        // 判定条件 1 连通  2 没有环
-         //解题思路：https://blog.csdn.net/hgq522/article/details/121690420
-        //并查集构造：https://zhuanlan.zhihu.com/p/93647900
         class Union {
             int[] fa;
             int rank[];
@@ -50,9 +47,9 @@ class GraphValidTree {
                 int x = find(i);
                 int y = find(j);
                 if (rank[x] <= rank[y]) {
-                    fa[x]=y;
-                }else{
-                    fa[y]=x;
+                    fa[x] = y;
+                } else {
+                    fa[y] = x;
                 }
                 if (rank[x] == rank[y] && x != y) {
                     rank[y]++;
@@ -60,16 +57,15 @@ class GraphValidTree {
             }
         }
 
-        public boolean validTree(int n, int[][] edges) {
+        public int countComponents(int n, int[][] edges) {
             Union union = new Union(n);
             int head=n;
             for (int i = 0; i < edges.length; i++) {
-                if(union.find(edges[i][0])==union.find(edges[i][1]))return false;
+                if(union.find(edges[i][0])==union.find(edges[i][1]))continue;
                 union.merge(edges[i][0], edges[i][1]);
                 n--;
             }
-            return n == 1;
-
+            return n;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
