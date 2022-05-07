@@ -456,6 +456,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[270]最接近的二叉搜索树值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[270]最接近的二叉搜索树值.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com270" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[270]最接近的二叉搜索树值.java" />
+              <option name="titleSlug" value="closest-binary-search-tree-value" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[293]翻转游戏.java">
           <value>
             <LeetcodeEditor>
