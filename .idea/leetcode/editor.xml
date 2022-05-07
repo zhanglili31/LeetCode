@@ -500,6 +500,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[276]栅栏涂色.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[276]栅栏涂色.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com276" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[276]栅栏涂色.java" />
+              <option name="titleSlug" value="paint-fence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[293]翻转游戏.java">
           <value>
             <LeetcodeEditor>
@@ -574,6 +585,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[337]打家劫舍 III.java" />
               <option name="titleSlug" value="house-robber-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[346]数据流中的移动平均值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[346]数据流中的移动平均值.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com346" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[346]数据流中的移动平均值.java" />
+              <option name="titleSlug" value="moving-average-from-data-stream" />
             </LeetcodeEditor>
           </value>
         </entry>
