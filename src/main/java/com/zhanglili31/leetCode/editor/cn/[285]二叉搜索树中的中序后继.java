@@ -36,7 +36,7 @@ class InorderSuccessorInBst {
      */
     class Solution {
         TreeNode res = null;
-
+        //充分利用BST
         public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
             if(root==null)return null;
             if(root.val>p.val){
