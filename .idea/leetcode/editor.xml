@@ -608,6 +608,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[302]包含全部黑色像素的最小矩形.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[302]包含全部黑色像素的最小矩形.md" />
+              <option name="frontendQuestionId" value="leetcode.cn302" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[302]包含全部黑色像素的最小矩形.java" />
+              <option name="titleSlug" value="smallest-rectangle-enclosing-black-pixels" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[309]最佳买卖股票时机含冷冻期.java">
           <value>
             <LeetcodeEditor>
