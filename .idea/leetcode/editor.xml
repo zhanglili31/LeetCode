@@ -531,6 +531,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[288]单词的唯一缩写.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[288]单词的唯一缩写.md" />
+              <option name="frontendQuestionId" value="leetcode.cn288" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[288]单词的唯一缩写.java" />
+              <option name="titleSlug" value="unique-word-abbreviation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[293]翻转游戏.java">
           <value>
             <LeetcodeEditor>
