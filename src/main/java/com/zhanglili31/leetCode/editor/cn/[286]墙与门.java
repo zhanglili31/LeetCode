@@ -19,48 +19,52 @@ class WallsAndGates {
         char[] charArray = {'t', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e'};
         int temp[] = CreateArray.getArray(20, 100);
         System.out.println(Arrays.toString(temp));
-        System.out.println(solution.generateAbbreviations(testStr));
+//        System.out.println(solution.generateAbbreviations(testStr));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        public List<String> generateAbbreviations(String word) {
-            Set<String> res = new HashSet<>();
-            if(word.length()>0){
-                res.add(word);
-            }
-            for (int i = 0; i < word.length(); i++) {
-                for (int j = i + 1; j <= word.length(); j++) {
-                    int pre = i - 1;
-                    int next = j + 1;
-                    String str1 = pre > 0 ? word.substring(0, pre) : "";
-                    String str2 = word.substring(i, j);
-                    String str3 = next < word.length() ? word.substring(next, word.length()) : "";
-                    String mid = String.valueOf(str2.length());
-                    mid = pre >= 0 ? String.valueOf(word.charAt(pre)) + mid : mid;
-                    mid = j < word.length() ? mid + String.valueOf(word.charAt(j)) : mid;
-                    List<String> list1 = generateAbbreviations(str1);
-                    List<String> list2 = generateAbbreviations(str3);
-                    if (list1.size() == 0 && list2.size() == 0) {
-                        res.add(mid);
-                    } else if (list2.size() > 0 && list1.size() > 0) {
-                        for (int k = 0; k < list1.size(); k++) {
-                            for (int l = 0; l < list2.size(); l++) {
-                                res.add(list1.get(k) + mid + list2.get(l));
-                            }
-                        }
-                    } else if (list1.size() > 0) {
-                        for (int k = 0; k < list1.size(); k++) {
-                            res.add(list1.get(k) + mid);
-                        }
-                    } else if (list2.size() > 0) {
-                        for (int k = 0; k < list2.size(); k++) {
-                            res.add(mid+list2.get(k) );
-                        }
+        public void wallsAndGates(int[][] rooms) {
+            int INF = Integer.MAX_VALUE;
+            LinkedList<int[]> queue = new LinkedList<>();
+            int m = rooms.length;
+            if (m == 0)
+                return;
+            int n = rooms[0].length;
+            for (int i = 0; i < m; i++) {
+                for (int j = 0; j < n; j++) {
+                    if (rooms[i][j] == 0) {
+                        int[] temp = {i, j};
+                        queue.add(temp);
                     }
                 }
             }
-            return new ArrayList<>(res);
+            while (!queue.isEmpty()) {
+                int[] temp = queue.poll();
+                int row = temp[0];
+                int column = temp[1];
+                int val = rooms[row][column];
+                if (column - 1 >= 0 && rooms[row][column - 1] == INF) {
+                    rooms[row][column - 1] = val + 1;
+                    int add[] = {row, column - 1};
+                    queue.add(add);
+                }
+                if (column + 1 < n && rooms[row][column + 1] == INF) {
+                    rooms[row][column + 1] = val + 1;
+                    int add[] = {row, column + 1};
+                    queue.add(add);
+                }
+                if (row - 1 >= 0 && rooms[row - 1][column] == INF) {
+                    rooms[row - 1][column] = val + 1;
+                    int add[] = {row - 1, column};
+                    queue.add(add);
+                }
+                if (row + 1 < m && rooms[row + 1][column] == INF) {
+                    rooms[row + 1][column] = val + 1;
+                    int add[] = {row + 1, column};
+                    queue.add(add);
+                }
+            }
 
         }
     }
