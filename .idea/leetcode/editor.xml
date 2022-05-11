@@ -3,47 +3,12 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
-        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[104]二叉树的最大深度.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[104]二叉树的最大深度.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[114]二叉树展开为链表.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[114]二叉树展开为链表.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[128]最长连续序列.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[128]最长连续序列.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[146]LRU 缓存机制.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[146]LRU 缓存机制.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[453]最小操作次数使数组元素相等.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/LeetCode/editor/cn/[453]最小操作次数使数组元素相等.java" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[101]对称二叉树.java">
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[101]对称二叉树.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com101" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn101" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[101]对称二叉树.java" />
               <option name="titleSlug" value="symmetric-tree" />
             </LeetcodeEditor>
@@ -53,8 +18,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[105]从前序与中序遍历序列构造二叉树.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com105" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn105" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[105]从前序与中序遍历序列构造二叉树.java" />
               <option name="titleSlug" value="construct-binary-tree-from-preorder-and-inorder-traversal" />
             </LeetcodeEditor>
@@ -64,8 +29,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[10]正则表达式匹配.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com10" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn10" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[10]正则表达式匹配.java" />
               <option name="titleSlug" value="regular-expression-matching" />
             </LeetcodeEditor>
@@ -75,8 +40,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[124]二叉树中的最大路径和.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com124" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn124" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[124]二叉树中的最大路径和.java" />
               <option name="titleSlug" value="binary-tree-maximum-path-sum" />
             </LeetcodeEditor>
@@ -86,8 +51,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[148]排序链表.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com148" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn148" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[148]排序链表.java" />
               <option name="titleSlug" value="sort-list" />
             </LeetcodeEditor>
@@ -97,8 +62,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[155]最小栈.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com155" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn155" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[155]最小栈.java" />
               <option name="titleSlug" value="min-stack" />
             </LeetcodeEditor>
@@ -108,8 +73,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[156]上下翻转二叉树.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com156" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn156" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[156]上下翻转二叉树.java" />
               <option name="titleSlug" value="binary-tree-upside-down" />
             </LeetcodeEditor>
@@ -119,8 +84,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[157]用 Read4 读取 N 个字符.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com157" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn157" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[157]用 Read4 读取 N 个字符.java" />
               <option name="titleSlug" value="read-n-characters-given-read4" />
             </LeetcodeEditor>
@@ -130,8 +95,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[158]用 Read4 读取 N 个字符 II.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com158" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn158" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[158]用 Read4 读取 N 个字符 II.java" />
               <option name="titleSlug" value="read-n-characters-given-read4-ii-call-multiple-times" />
             </LeetcodeEditor>
@@ -141,8 +106,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[159]至多包含两个不同字符的最长子串.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com159" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn159" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[159]至多包含两个不同字符的最长子串.java" />
               <option name="titleSlug" value="longest-substring-with-at-most-two-distinct-characters" />
             </LeetcodeEditor>
@@ -152,8 +117,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[161]相隔为 1 的编辑距离.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com161" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn161" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[161]相隔为 1 的编辑距离.java" />
               <option name="titleSlug" value="one-edit-distance" />
             </LeetcodeEditor>
@@ -163,8 +128,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[163]缺失的区间.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com163" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn163" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[163]缺失的区间.java" />
               <option name="titleSlug" value="missing-ranges" />
             </LeetcodeEditor>
@@ -174,8 +139,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[170]两数之和 III - 数据结构设计.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com170" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn170" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[170]两数之和 III - 数据结构设计.java" />
               <option name="titleSlug" value="two-sum-iii-data-structure-design" />
             </LeetcodeEditor>
@@ -185,8 +150,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[186]翻转字符串里的单词 II.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com186" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn186" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[186]翻转字符串里的单词 II.java" />
               <option name="titleSlug" value="reverse-words-in-a-string-ii" />
             </LeetcodeEditor>
@@ -196,8 +161,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[204]计数质数.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com204" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn204" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[204]计数质数.java" />
               <option name="titleSlug" value="count-primes" />
             </LeetcodeEditor>
@@ -207,8 +172,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[208]实现 Trie (前缀树).md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com208" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn208" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[208]实现 Trie (前缀树).java" />
               <option name="titleSlug" value="implement-trie-prefix-tree" />
             </LeetcodeEditor>
@@ -218,8 +183,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[2122]还原原数组.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com2122" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn2122" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[2122]还原原数组.java" />
               <option name="titleSlug" value="recover-the-original-array" />
             </LeetcodeEditor>
@@ -229,8 +194,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[236]二叉树的最近公共祖先.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com236" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn236" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[236]二叉树的最近公共祖先.java" />
               <option name="titleSlug" value="lowest-common-ancestor-of-a-binary-tree" />
             </LeetcodeEditor>
@@ -240,8 +205,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[239]滑动窗口最大值.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com239" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn239" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[239]滑动窗口最大值.java" />
               <option name="titleSlug" value="sliding-window-maximum" />
             </LeetcodeEditor>
@@ -251,8 +216,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[243]最短单词距离.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com243" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn243" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[243]最短单词距离.java" />
               <option name="titleSlug" value="shortest-word-distance" />
             </LeetcodeEditor>
@@ -262,8 +227,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[244]最短单词距离 II.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com244" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn244" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[244]最短单词距离 II.java" />
               <option name="titleSlug" value="shortest-word-distance-ii" />
             </LeetcodeEditor>
@@ -273,8 +238,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[245]最短单词距离 III.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com245" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn245" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[245]最短单词距离 III.java" />
               <option name="titleSlug" value="shortest-word-distance-iii" />
             </LeetcodeEditor>
@@ -284,8 +249,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[246]中心对称数.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com246" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn246" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[246]中心对称数.java" />
               <option name="titleSlug" value="strobogrammatic-number" />
             </LeetcodeEditor>
@@ -295,8 +260,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[247]中心对称数 II.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com247" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn247" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[247]中心对称数 II.java" />
               <option name="titleSlug" value="strobogrammatic-number-ii" />
             </LeetcodeEditor>
@@ -306,8 +271,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[248]中心对称数 III.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com248" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn248" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[248]中心对称数 III.java" />
               <option name="titleSlug" value="strobogrammatic-number-iii" />
             </LeetcodeEditor>
@@ -317,8 +282,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[249]移位字符串分组.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com249" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn249" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[249]移位字符串分组.java" />
               <option name="titleSlug" value="group-shifted-strings" />
             </LeetcodeEditor>
@@ -328,8 +293,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[250]统计同值子树.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com250" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn250" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[250]统计同值子树.java" />
               <option name="titleSlug" value="count-univalue-subtrees" />
             </LeetcodeEditor>
@@ -339,8 +304,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[251]展开二维向量.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com251" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn251" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[251]展开二维向量.java" />
               <option name="titleSlug" value="flatten-2d-vector" />
             </LeetcodeEditor>
@@ -350,8 +315,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[252]会议室.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com252" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn252" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[252]会议室.java" />
               <option name="titleSlug" value="meeting-rooms" />
             </LeetcodeEditor>
@@ -361,8 +326,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[253]会议室 II.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com253" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn253" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[253]会议室 II.java" />
               <option name="titleSlug" value="meeting-rooms-ii" />
             </LeetcodeEditor>
@@ -372,8 +337,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[254]因子的组合.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com254" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn254" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[254]因子的组合.java" />
               <option name="titleSlug" value="factor-combinations" />
             </LeetcodeEditor>
@@ -383,8 +348,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[255]验证前序遍历序列二叉搜索树.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com255" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn255" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[255]验证前序遍历序列二叉搜索树.java" />
               <option name="titleSlug" value="verify-preorder-sequence-in-binary-search-tree" />
             </LeetcodeEditor>
@@ -394,8 +359,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[256]粉刷房子.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com256" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn256" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[256]粉刷房子.java" />
               <option name="titleSlug" value="paint-house" />
             </LeetcodeEditor>
@@ -405,8 +370,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[259]较小的三数之和.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com259" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn259" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[259]较小的三数之和.java" />
               <option name="titleSlug" value="3sum-smaller" />
             </LeetcodeEditor>
@@ -416,8 +381,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[261]以图判树.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com261" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn261" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[261]以图判树.java" />
               <option name="titleSlug" value="graph-valid-tree" />
             </LeetcodeEditor>
@@ -427,8 +392,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[265]粉刷房子 II.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com265" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn265" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[265]粉刷房子 II.java" />
               <option name="titleSlug" value="paint-house-ii" />
             </LeetcodeEditor>
@@ -438,8 +403,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[266]回文排列.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com266" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn266" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[266]回文排列.java" />
               <option name="titleSlug" value="palindrome-permutation" />
             </LeetcodeEditor>
@@ -449,8 +414,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[267]回文排列 II.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com267" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn267" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[267]回文排列 II.java" />
               <option name="titleSlug" value="palindrome-permutation-ii" />
             </LeetcodeEditor>
@@ -460,8 +425,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[269]火星词典.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com269" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn269" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[269]火星词典.java" />
               <option name="titleSlug" value="alien-dictionary" />
             </LeetcodeEditor>
@@ -471,8 +436,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[270]最接近的二叉搜索树值.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com270" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn270" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[270]最接近的二叉搜索树值.java" />
               <option name="titleSlug" value="closest-binary-search-tree-value" />
             </LeetcodeEditor>
@@ -482,8 +447,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[271]字符串的编码与解码.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com271" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn271" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[271]字符串的编码与解码.java" />
               <option name="titleSlug" value="encode-and-decode-strings" />
             </LeetcodeEditor>
@@ -493,8 +458,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[272]最接近的二叉搜索树值 II.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com272" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn272" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[272]最接近的二叉搜索树值 II.java" />
               <option name="titleSlug" value="closest-binary-search-tree-value-ii" />
             </LeetcodeEditor>
@@ -504,8 +469,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[276]栅栏涂色.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com276" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn276" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[276]栅栏涂色.java" />
               <option name="titleSlug" value="paint-fence" />
             </LeetcodeEditor>
@@ -515,8 +480,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[277]搜寻名人.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com277" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn277" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[277]搜寻名人.java" />
               <option name="titleSlug" value="find-the-celebrity" />
             </LeetcodeEditor>
@@ -526,8 +491,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[280]摆动排序.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com280" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn280" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[280]摆动排序.java" />
               <option name="titleSlug" value="wiggle-sort" />
             </LeetcodeEditor>
@@ -537,8 +502,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[281]锯齿迭代器.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com281" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn281" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[281]锯齿迭代器.java" />
               <option name="titleSlug" value="zigzag-iterator" />
             </LeetcodeEditor>
@@ -548,8 +513,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[285]二叉搜索树中的中序后继.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com285" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn285" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[285]二叉搜索树中的中序后继.java" />
               <option name="titleSlug" value="inorder-successor-in-bst" />
             </LeetcodeEditor>
@@ -559,8 +524,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[286]墙与门.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com286" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn286" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[286]墙与门.java" />
               <option name="titleSlug" value="walls-and-gates" />
             </LeetcodeEditor>
@@ -570,8 +535,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[293]翻转游戏.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com293" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn293" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[293]翻转游戏.java" />
               <option name="titleSlug" value="flip-game" />
             </LeetcodeEditor>
@@ -581,8 +546,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[297]二叉树的序列化与反序列化.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com297" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn297" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[297]二叉树的序列化与反序列化.java" />
               <option name="titleSlug" value="serialize-and-deserialize-binary-tree" />
             </LeetcodeEditor>
@@ -592,8 +557,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[301]删除无效的括号.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com301" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn301" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[301]删除无效的括号.java" />
               <option name="titleSlug" value="remove-invalid-parentheses" />
             </LeetcodeEditor>
@@ -603,8 +568,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[309]最佳买卖股票时机含冷冻期.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com309" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn309" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[309]最佳买卖股票时机含冷冻期.java" />
               <option name="titleSlug" value="best-time-to-buy-and-sell-stock-with-cooldown" />
             </LeetcodeEditor>
@@ -614,10 +579,21 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[312]戳气球.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com312" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn312" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[312]戳气球.java" />
               <option name="titleSlug" value="burst-balloons" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[317]离建筑物最近的距离.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[317]离建筑物最近的距离.md" />
+              <option name="frontendQuestionId" value="leetcode.cn317" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[317]离建筑物最近的距离.java" />
+              <option name="titleSlug" value="shortest-distance-from-all-buildings" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -625,8 +601,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[323]无向图中连通分量的数目.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com323" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn323" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[323]无向图中连通分量的数目.java" />
               <option name="titleSlug" value="number-of-connected-components-in-an-undirected-graph" />
             </LeetcodeEditor>
@@ -636,8 +612,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[337]打家劫舍 III.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com337" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn337" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[337]打家劫舍 III.java" />
               <option name="titleSlug" value="house-robber-iii" />
             </LeetcodeEditor>
@@ -647,8 +623,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[346]数据流中的移动平均值.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com346" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn346" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[346]数据流中的移动平均值.java" />
               <option name="titleSlug" value="moving-average-from-data-stream" />
             </LeetcodeEditor>
@@ -658,8 +634,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[359]日志速率限制器.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com359" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn359" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[359]日志速率限制器.java" />
               <option name="titleSlug" value="logger-rate-limiter" />
             </LeetcodeEditor>
@@ -669,8 +645,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[393]UTF-8 编码验证.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com393" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn393" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[393]UTF-8 编码验证.java" />
               <option name="titleSlug" value="utf-8-validation" />
             </LeetcodeEditor>
@@ -680,8 +656,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[399]除法求值.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com399" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn399" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[399]除法求值.java" />
               <option name="titleSlug" value="evaluate-division" />
             </LeetcodeEditor>
@@ -691,8 +667,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[406]根据身高重建队列.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com406" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn406" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[406]根据身高重建队列.java" />
               <option name="titleSlug" value="queue-reconstruction-by-height" />
             </LeetcodeEditor>
@@ -702,8 +678,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[437]路径总和 III.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com437" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn437" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[437]路径总和 III.java" />
               <option name="titleSlug" value="path-sum-iii" />
             </LeetcodeEditor>
@@ -713,8 +689,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[494]目标和.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com494" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn494" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[494]目标和.java" />
               <option name="titleSlug" value="target-sum" />
             </LeetcodeEditor>
@@ -724,8 +700,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[543]二叉树的直径.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com543" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn543" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[543]二叉树的直径.java" />
               <option name="titleSlug" value="diameter-of-binary-tree" />
             </LeetcodeEditor>
@@ -735,8 +711,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[590]N 叉树的后序遍历.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com590" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn590" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[590]N 叉树的后序遍历.java" />
               <option name="titleSlug" value="n-ary-tree-postorder-traversal" />
             </LeetcodeEditor>
@@ -746,8 +722,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[647]回文子串.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com647" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn647" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[647]回文子串.java" />
               <option name="titleSlug" value="palindromic-substrings" />
             </LeetcodeEditor>
@@ -757,8 +733,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[85]最大矩形.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com85" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn85" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[85]最大矩形.java" />
               <option name="titleSlug" value="maximal-rectangle" />
             </LeetcodeEditor>
@@ -768,8 +744,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[900]RLE 迭代器.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com900" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn900" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[900]RLE 迭代器.java" />
               <option name="titleSlug" value="rle-iterator" />
             </LeetcodeEditor>
@@ -779,8 +755,8 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[96]不同的二叉搜索树.md" />
-              <option name="frontendQuestionId" value="leetcode-cn.com96" />
-              <option name="host" value="leetcode-cn.com" />
+              <option name="frontendQuestionId" value="leetcode.cn96" />
+              <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[96]不同的二叉搜索树.java" />
               <option name="titleSlug" value="unique-binary-search-trees" />
             </LeetcodeEditor>
