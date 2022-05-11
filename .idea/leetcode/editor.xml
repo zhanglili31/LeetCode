@@ -751,6 +751,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[339]嵌套列表权重和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[339]嵌套列表权重和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn339" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[339]嵌套列表权重和.java" />
+              <option name="titleSlug" value="nested-list-weight-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[346]数据流中的移动平均值.java">
           <value>
             <LeetcodeEditor>
