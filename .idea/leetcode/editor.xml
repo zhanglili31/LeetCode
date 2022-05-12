@@ -828,6 +828,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[358]K 距离间隔重排字符串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[358]K 距离间隔重排字符串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn358" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[358]K 距离间隔重排字符串.java" />
+              <option name="titleSlug" value="rearrange-string-k-distance-apart" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[359]日志速率限制器.java">
           <value>
             <LeetcodeEditor>
@@ -968,6 +979,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[96]不同的二叉搜索树.java" />
               <option name="titleSlug" value="unique-binary-search-trees" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[面试题 01.01]判定字符是否唯一.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[面试题 01.01]判定字符是否唯一.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 01.01" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[面试题 01.01]判定字符是否唯一.java" />
+              <option name="titleSlug" value="is-unique-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[面试题 01.02]判定是否互为字符重排.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[面试题 01.02]判定是否互为字符重排.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 01.02" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[面试题 01.02]判定是否互为字符重排.java" />
+              <option name="titleSlug" value="check-permutation-lcci" />
             </LeetcodeEditor>
           </value>
         </entry>
