@@ -33,8 +33,8 @@ class DesignSnakeGame {
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
-    //关键点：先去掉蛇尾，再加蛇头， 需要使用真是变化后的身体长度
-     class SnakeGame {
+    //关键点：先去掉蛇尾，再加蛇头， 需要使用真是变化后的身体长度//应该梳理好每一种情形，再写代码。
+    class SnakeGame {
         Map<String, int[]> dictionMap;
         Set<Integer> bodies;
         LinkedList<int[]> bodyList;
