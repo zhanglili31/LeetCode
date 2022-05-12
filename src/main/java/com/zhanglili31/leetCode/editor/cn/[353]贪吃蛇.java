@@ -19,22 +19,22 @@ class DesignSnakeGame {
         char[] charArray = {'t', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e'};
         int temp[] = CreateArray.getArray(20, 100);
         System.out.println(Arrays.toString(temp));
-        SnakeGame snakeGame = new SnakeGame(3, 3, a);
-        Scanner sc = new Scanner(System.in);
-        String[] dir = {"D", "D", "R", "U", "U", "L", "D", "R", "R", "U", "L", "L", "D", "R", "U"};
-        int i = 0;
-        while (i < dir.length) {
-//            String input = sc.nextLine();
-            snakeGame.move(dir[i]);
-            i++;
-        }
+//        SnakeGame snakeGame = new SnakeGame(3, 3, a);
+//        Scanner sc = new Scanner(System.in);
+//        String[] dir = {"D", "D", "R", "U", "U", "L", "D", "R", "R", "U", "L", "L", "D", "R", "U"};
+//        int i = 0;
+//        while (i < dir.length) {
+////            String input = sc.nextLine();
+//            snakeGame.move(dir[i]);
+//            i++;
+//        }
 
 //        System.out.println(solution);
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     //关键点：先去掉蛇尾，再加蛇头， 需要使用真是变化后的身体长度
-    static class SnakeGame {
+     class SnakeGame {
         Map<String, int[]> dictionMap;
         Set<Integer> bodies;
         LinkedList<int[]> bodyList;
