@@ -916,6 +916,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[370]区间加法.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[370]区间加法.md" />
+              <option name="frontendQuestionId" value="leetcode.cn370" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[370]区间加法.java" />
+              <option name="titleSlug" value="range-addition" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[379]电话目录管理系统.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[379]电话目录管理系统.md" />
+              <option name="frontendQuestionId" value="leetcode.cn379" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[379]电话目录管理系统.java" />
+              <option name="titleSlug" value="design-phone-directory" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[393]UTF-8 编码验证.java">
           <value>
             <LeetcodeEditor>
@@ -946,6 +968,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[406]根据身高重建队列.java" />
               <option name="titleSlug" value="queue-reconstruction-by-height" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[408]有效单词缩写.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[408]有效单词缩写.md" />
+              <option name="frontendQuestionId" value="leetcode.cn408" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[408]有效单词缩写.java" />
+              <option name="titleSlug" value="valid-word-abbreviation" />
             </LeetcodeEditor>
           </value>
         </entry>
