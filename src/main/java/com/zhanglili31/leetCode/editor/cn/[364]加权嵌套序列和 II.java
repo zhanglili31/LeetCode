@@ -15,6 +15,7 @@ class NestedListWeightSumIi {
 //        System.out.println(Arrays.toString(temp));
 //        System.out.println(solution);
     }
+
     
         //leetcode submit region begin(Prohibit modification and deletion)
 /**
