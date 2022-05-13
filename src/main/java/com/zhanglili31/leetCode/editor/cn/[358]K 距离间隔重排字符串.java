@@ -4,9 +4,7 @@ import com.zhanglili31.leetCode.editor.cn.utils.CreateArray;
 import com.zhanglili31.leetCode.editor.cn.utils.CreateTree;
 import com.zhanglili31.leetCode.editor.cn.utils.TreeNode;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 //358 K 距离间隔重排字符串
 //2022-05-12 11:40:43
@@ -21,43 +19,44 @@ class RearrangeStringKDistanceApart {
         char[] charArray = {'t', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e'};
         int temp[] = CreateArray.getArray(20, 100);
         System.out.println(Arrays.toString(temp));
-        System.out.println(solution.rearrangeString(testStr, 2));
+        System.out.println(solution.rearrangeString(testStr, 3));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public String rearrangeString(String s, int k) {
-            Map<Character, Integer> map1 = new HashMap<>();
-            Map<Integer, Character> map2 = new HashMap<>();
-            StringBuilder strB = new StringBuilder();
-            int len = 0;//s的字符位置
-            int i = 0;
-            for (; len < s.length(); len++) {
-                if (map2.containsKey(len)) {
-                    strB.append(map2.get(len));
-                    map1.put(map2.get(len), len);
-                    map2.remove(len);
-                } else {
-                    for (; i < s.length(); i++) {
-                        char ch = s.charAt(i);
-                        int last = map1.getOrDefault(ch, -7 * 100000);
-                        if (len - last >= k) {
-                            strB.append(ch);
-                            map1.put(ch, len);
-                            i++;
-                            break;
-                        } else {
-                            map2.put(k+map1.get(ch), ch);
-                        }
-
+            if (k <= 1) {
+                return s;
+            }
+            PriorityQueue<Map.Entry<Character, Integer>> maxHeap = new PriorityQueue<Map.Entry<Character, Integer>>((a, b) -> {
+                return b.getValue() - a.getValue();
+            });
+            Map<Character, Integer> map = new HashMap<>();
+            Queue<Map.Entry<Character, Integer>> queue = new LinkedList<>();
+            for (int i = 0; i < s.length(); i++) {
+                char ch = s.charAt(i);
+                map.put(ch, map.getOrDefault(ch, 0) + 1);
+            }
+            maxHeap.addAll(map.entrySet());
+            StringBuilder sb = new StringBuilder();
+            while (!maxHeap.isEmpty()) {
+                Map.Entry<Character, Integer> entry = maxHeap.poll();
+                sb.append(entry.getKey());
+                entry.setValue(entry.getValue() - 1);
+                queue.offer(entry);
+                if (queue.size() == k) {
+                    Map.Entry<Character, Integer> qHead = queue.poll();
+                    if (qHead.getValue() > 0) {
+                        maxHeap.add(qHead);
                     }
                 }
-
             }
+            return sb.length() == s.length() ? sb.toString() : "";
 
-            return map2.size() == 0 ? strB.toString() : "";
         }
+
     }
+
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
