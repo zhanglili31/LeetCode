@@ -1026,6 +1026,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[428]序列化和反序列化 N 叉树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[428]序列化和反序列化 N 叉树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn428" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[428]序列化和反序列化 N 叉树.java" />
+              <option name="titleSlug" value="serialize-and-deserialize-n-ary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[437]路径总和 III.java">
           <value>
             <LeetcodeEditor>
