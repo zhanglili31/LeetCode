@@ -15,7 +15,7 @@ class WordSquares {
         TreeNode root = CreateTree.deserialize("[1,2,3,4,5,6,7,8,9]");
         int[][] a = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
         String testStr = "hello";
-        String strArray[] = {"area","lead","wall","lady","ball"};
+        String strArray[] = {"area", "lead", "wall", "lady", "ball"};
         char[] charArray = {'t', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e'};
         int temp[] = CreateArray.getArray(20, 100);
         System.out.println(Arrays.toString(temp));
@@ -24,6 +24,7 @@ class WordSquares {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        //        参考方案：回溯+HashMap   https://leetcode.cn/problems/word-squares/solution/dan-ci-fang-kuai-by-leetcode/
         public List<List<String>> wordSquares(String[] words) {
             List<List<String>> ans = new ArrayList<>();
             if (words == null)
@@ -32,7 +33,7 @@ class WordSquares {
             int row = 0;
             int[] points = new int[n];
             List<String> list = new ArrayList<>();
-            Map<String, List<String>> map = createMap(words);
+            Map<String, List<String>> map = buildPrefixHashTable(words);
             //从第一行开始的第0个开始，知道第一行的最后一个访问完，points[0]>=length,回溯完成。
             while (row > -1) {
                 StringBuilder strB = new StringBuilder();
@@ -43,7 +44,7 @@ class WordSquares {
                 String pre = strB.toString();
                 int j = points[row];
                 //对单词数组回溯，
-                List<String> wList = map.get(pre);
+                List<String> wList = map.getOrDefault(pre, new ArrayList<String>());
                 for (; j < wList.size(); j++) {
                     points[row] = j + 1;
                     list.add(wList.get(j));
@@ -62,7 +63,7 @@ class WordSquares {
                     }
                 }
                 //一个合适的都没有找到，向上回溯
-                if (j == wList.size()) {
+                if (j >= wList.size()) {
                     if (list.size() > 0)
                         list.remove(list.size() - 1);
                     row--;
@@ -72,11 +73,11 @@ class WordSquares {
         }
 
         //构造hash表。
-        protected void buildPrefixHashTable(String[] words) {
+        public Map buildPrefixHashTable(String[] words) {
             Map<String, List<String>> prefixHashTable = new HashMap<String, List<String>>();
 
             for (String word : words) {
-                for (int i = 1; i < 0; ++i) {
+                for (int i = 0; i < words[0].length(); ++i) {
                     String prefix = word.substring(0, i);
                     List<String> wordList = prefixHashTable.get(prefix);
                     if (wordList == null) {
@@ -88,20 +89,7 @@ class WordSquares {
                     }
                 }
             }
-        }
-
-        public Map createMap(String[] words) {
-            Map<String, List<String>> map = new HashMap<>();
-            for (int i = 0; i <= words[0].length(); i++) {
-                for (int j = 0; j < words.length; j++) {
-                    String prefix = words[j].substring(0, i);
-                    List<String> addList = map.getOrDefault(prefix, new ArrayList<>());
-                    addList.add(words[j]);
-                    map.put(prefix, addList);
-                }
-            }
-            return map;
-
+            return prefixHashTable;
         }
 
         //普通的回溯方法 超时了
@@ -152,6 +140,8 @@ class WordSquares {
             }
             return ans;
         }
+
+
     }
 
 //leetcode submit region end(Prohibit modification and deletion)
