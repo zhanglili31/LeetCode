@@ -38,6 +38,7 @@ class SequenceReconstruction {
                 MAX = Math.max(MAX, nums[i]);
             }
             int u, v;
+            //构造边的关系，
             for (List<Integer> subList : sequences) {
                 u = subList.get(0);
                 if (!deg.containsKey(u)) {
@@ -63,6 +64,7 @@ class SequenceReconstruction {
                 }
             });
             int index = 0;
+            //拓扑排序
             while (!queue.isEmpty()) {
                 if (queue.size() > 1)
                     return false;
