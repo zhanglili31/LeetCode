@@ -1048,6 +1048,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[431]将 N 叉树编码为二叉树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[431]将 N 叉树编码为二叉树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn431" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[431]将 N 叉树编码为二叉树.java" />
+              <option name="titleSlug" value="encode-n-ary-tree-to-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[437]路径总和 III.java">
           <value>
             <LeetcodeEditor>
@@ -1067,6 +1078,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[439]三元表达式解析器.java" />
               <option name="titleSlug" value="ternary-expression-parser" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[444]序列重建.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[444]序列重建.md" />
+              <option name="frontendQuestionId" value="leetcode.cn444" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[444]序列重建.java" />
+              <option name="titleSlug" value="sequence-reconstruction" />
             </LeetcodeEditor>
           </value>
         </entry>

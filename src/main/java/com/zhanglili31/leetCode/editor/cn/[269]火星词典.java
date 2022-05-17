@@ -24,11 +24,12 @@ class AlienDictionary {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        //拓扑排序
         public String alienOrder(String[] words) {
             //deg 记录每一个字符的入度
             Map<Character, Integer> deg = new HashMap<>();
 
-            //记录每一个字符指向的边。如 a->b;a-c;  存储为：key=a, list=[b,c]
+            //记录每一个字符指向的边。如 a->b;a-c;  存储为：key=a, list=[b,c]，list可能会存在重复
             Map<Character, List<Character>> edges = new HashMap<>();
             //初始化所有字符的入度为0；
             for (int i = 0; i < words.length; i++) {
