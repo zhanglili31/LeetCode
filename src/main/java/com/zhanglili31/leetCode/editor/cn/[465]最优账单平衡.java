@@ -27,19 +27,59 @@ class OptimalAccountBalancing {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        //暴力回溯,超出时间限制
-        int ans = Integer.MAX_VALUE;
-
+        // 暴力回溯： https://leetcode.cn/problems/optimal-account-balancing/solution/bao-li-hui-su-by-powcai/
         public int minTransfers(int[][] transactions) {
             //预处理交易
             Map<Integer, Integer> map = new HashMap<>();
             for (int i = 0; i < transactions.length; i++) {
-                map.put(transactions[i][1],map.getOrDefault(transactions[i][1],0)+transactions[i][2]);
-                map.put(transactions[i][0],map.getOrDefault(transactions[i][0],0)-transactions[i][2]);
+                map.put(transactions[i][1], map.getOrDefault(transactions[i][1], 0) + transactions[i][2]);
+                map.put(transactions[i][0], map.getOrDefault(transactions[i][0], 0) - transactions[i][2]);
+            }
+            LinkedList<Integer> list = new LinkedList<Integer>();
+            map.forEach((k, v) -> {
+                list.add(v);
+            });
+            DFS(list, 0, 0);
+            return ans;
+        }
+
+        public void DFS(LinkedList<Integer> list, int start, int t) {
+            if (t >= ans)
+                return;
+            int p1, n1;
+            while (start < list.size() && list.get(start) == 0)
+                start++;
+            if (list.size() == start) {
+                ans = Math.min(ans, t);
+                return;
+            }
+
+            for (int j = start + 1; j < list.size(); j++) {
+                p1 = list.get(start);
+                n1 = list.get(j);
+                if (p1 * n1 < 0) {
+                    list.set(j, p1 + n1);
+                    DFS(list, start+1, t + 1);
+                    list.set(j, n1);
+                }
+            }
+
+        }
+
+
+        //暴力回溯,超出时间限制
+        int ans = Integer.MAX_VALUE;
+
+        public int minTransfers2(int[][] transactions) {
+            //预处理交易
+            Map<Integer, Integer> map = new HashMap<>();
+            for (int i = 0; i < transactions.length; i++) {
+                map.put(transactions[i][1], map.getOrDefault(transactions[i][1], 0) + transactions[i][2]);
+                map.put(transactions[i][0], map.getOrDefault(transactions[i][0], 0) - transactions[i][2]);
             }
             LinkedList<Integer> po = new LinkedList<Integer>();
             LinkedList<Integer> ne = new LinkedList<Integer>();
-            map.forEach((k,v)->{
+            map.forEach((k, v) -> {
                 if (v > 0) {
                     po.add(v);
                 } else if (v < 0) {
@@ -55,7 +95,8 @@ class OptimalAccountBalancing {
                 ans = Math.min(ans, t);
                 return;
             }
-            if(t>=ans)return;
+            if (t >= ans)
+                return;
             int p1, n1, d;
             for (int i = 0; i < po.size(); i++) {
                 for (int j = 0; j < ne.size(); j++) {
@@ -74,7 +115,7 @@ class OptimalAccountBalancing {
                         traceBack(po, ne, t + 1);
                         po.add(i, p1);
                         ne.set(j, n1);
-                    } else if (d > 0){
+                    } else if (d > 0) {
                         po.set(i, d);
                         ne.remove(j);
                         traceBack(po, ne, t + 1);
