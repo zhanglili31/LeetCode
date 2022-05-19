@@ -1301,6 +1301,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[562]矩阵中最长的连续1线段.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[562]矩阵中最长的连续1线段.md" />
+              <option name="frontendQuestionId" value="leetcode.cn562" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[562]矩阵中最长的连续1线段.java" />
+              <option name="titleSlug" value="longest-line-of-consecutive-one-in-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[573]松鼠模拟.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[573]松鼠模拟.md" />
+              <option name="frontendQuestionId" value="leetcode.cn573" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[573]松鼠模拟.java" />
+              <option name="titleSlug" value="squirrel-simulation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[590]N 叉树的后序遍历.java">
           <value>
             <LeetcodeEditor>
