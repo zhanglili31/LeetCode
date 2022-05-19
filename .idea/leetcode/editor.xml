@@ -1268,6 +1268,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[548]将数组分割成和相等的子数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[548]将数组分割成和相等的子数组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn548" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[548]将数组分割成和相等的子数组.java" />
+              <option name="titleSlug" value="split-array-with-equal-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[549]二叉树中最长的连续序列.java">
           <value>
             <LeetcodeEditor>
