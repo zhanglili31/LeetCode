@@ -1,32 +1,69 @@
 package com.zhanglili31.leetCode.editor.cn;
 
+import com.zhanglili31.leetCode.editor.cn.utils.CreateArray;
 import com.zhanglili31.leetCode.editor.cn.utils.CreateTree;
 import com.zhanglili31.leetCode.editor.cn.utils.TreeNode;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
-//28实现 strStr()
-//2021-03-11 22:12:04
-class ImplementStrstr {
-    public static void main(String args) {
-        Solution solution = new ImplementStrstr().new Solution();
-        TreeNode r = CreateTree.deserialize("[5,4,2,3,3,7]");
+//616 给字符串添加加粗标签
+//2022-05-20 21:28:13
+class AddBoldTagInString {
 
-        System.out.println(solution);
+    public static void main(String[] args) {
+        Solution solution = new AddBoldTagInString().new Solution();
+        TreeNode root = CreateTree.deserialize("[1,2,3,4,5,6,7,8,9]");
+        int[][] a = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
+        String testStr = "aaaa";
+        String strArray[] = {"a", "123"};
+        char[] charArray = {'t', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e'};
+        int temp[] = CreateArray.getArray(20, 100);
+        System.out.println(Arrays.toString(temp));
+        System.out.println(solution.addBoldTag(testStr, strArray));
+
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        public int strStr(String haystack, String needle) {
-            List<int[]> ans = KMP(haystack, needle);
-            if (ans.size() == 0) {
-                return -1;
-            } else {
-                return ans.get(0)[0];
+        public String addBoldTag(String s, String[] words) {
+            if (words.length == 0)
+                return s;
+            String ans = "";
+            List<int[]> list = new ArrayList<>();
+            for (int i = 0; i < words.length; i++) {
+                list.addAll(KMP(s, words[i]));
             }
+            for (int i = 0; i < list.size(); i++) {
+                int q1[] = list.get(i);
+                int a = q1[0] - 1;
+                int b = q1[1] + 1;
+                for (int j = i + 1; j < list.size(); j++) {
+                    int[] q2 = list.get(j);
+                    int c = q2[0] - 1;
+                    int d = q2[1] + 1;
+                    if (b <= c || d <= a) {
+                        break;
+                    } else {
+                        a = Math.min(a, c);
+                        b = Math.max(b, d);
+                        list.set(i, new int[]{a + 1, b - 1});
+                        list.remove(j);
+                        j--;
 
+                    }
+                }
+            }
+            StringBuilder strb = new StringBuilder(s);
+            int offset = 0;
+            for (int i = 0; i < list.size(); i++) {
+                int temp[] = list.get(i);
 
+                strb.insert(temp[0] + offset, "<b>");
+                offset += 3;
+                strb.insert(temp[1] + offset + 1, "</b>");
+                offset += 4;
+            }
+            return strb.toString();
         }
 
         public List<int[]> KMP(String s, String p) {
@@ -97,4 +134,3 @@ class ImplementStrstr {
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
-//
