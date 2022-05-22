@@ -14,8 +14,8 @@ class AddBoldTagInString {
         Solution solution = new AddBoldTagInString().new Solution();
         TreeNode root = CreateTree.deserialize("[1,2,3,4,5,6,7,8,9]");
         int[][] a = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
-        String testStr = "aaaa";
-        String strArray[] = {"a", "123"};
+        String testStr = "abcdef";
+        String strArray[] = {"a", "c", "e", "g"};
         char[] charArray = {'t', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e'};
         int temp[] = CreateArray.getArray(20, 100);
         System.out.println(Arrays.toString(temp));
@@ -25,7 +25,46 @@ class AddBoldTagInString {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        //解题方式：染色
         public String addBoldTag(String s, String[] words) {
+            int N = s.length();
+            boolean mask[] = new boolean[N];
+            for (int i = 0; i < words.length; i++) {
+                for (int j = 0; j < s.length(); j++) {
+                    if (s.startsWith(words[i], j)) {
+                        for (int k = j; k < j + words[i].length(); k++) {
+                            mask[k] = true;
+                        }
+                    }
+                }
+            }
+            StringBuilder ans = new StringBuilder();
+            int i = 0;
+            int start = 0;
+            int end = 0;
+            while (i < N) {
+                if (i == 0 && mask[i] || i - 1 >= 0 && mask[i] && (!mask[i - 1])) {
+                    start = i;
+                    ans.append(s.substring(end, start));
+                    ans.append("<b>");
+                }
+                if (i == N - 1 && mask[i] || i + 1 < N && mask[i] && (!mask[i + 1])) {
+                    end = i + 1;
+                    ans.append(s.substring(start, end));
+                    ans.append("</b>");
+                    start = end;
+                } else if (i == N - 1) {
+                    ans.append(s.substring(start, i + 1));
+                }
+                i++;
+
+            }
+            return ans.toString();
+
+        }
+
+        // KMP+区间合并  //超时
+        public String addBoldTag2(String s, String[] words) {
             if (words.length == 0)
                 return s;
             String ans = "";
@@ -33,37 +72,41 @@ class AddBoldTagInString {
             for (int i = 0; i < words.length; i++) {
                 list.addAll(KMP(s, words[i]));
             }
+            if (list.size() == 0) {
+                return s;
+            }
+            list.sort(new Comparator<int[]>() {
+                @Override
+                public int compare(int[] o1, int[] o2) {
+                    return o1[0] - o2[0];
+                }
+            });
+            StringBuilder str = new StringBuilder();
+            int init = 0;
+
+            int a = 0, b = 0;
             for (int i = 0; i < list.size(); i++) {
                 int q1[] = list.get(i);
-                int a = q1[0] - 1;
-                int b = q1[1] + 1;
+                a = q1[0];
+                b = q1[1];
+                str.append(s.substring(init, a));
                 for (int j = i + 1; j < list.size(); j++) {
                     int[] q2 = list.get(j);
-                    int c = q2[0] - 1;
-                    int d = q2[1] + 1;
-                    if (b <= c || d <= a) {
-                        break;
-                    } else {
-                        a = Math.min(a, c);
+                    int c = q2[0];
+                    int d = q2[1];
+                    if (c - 1 <= b) {
                         b = Math.max(b, d);
-                        list.set(i, new int[]{a + 1, b - 1});
                         list.remove(j);
                         j--;
-
                     }
                 }
+                str.append("<b>" + s.substring(a, b + 1) + "</b>");
+                init = b + 1;
             }
-            StringBuilder strb = new StringBuilder(s);
-            int offset = 0;
-            for (int i = 0; i < list.size(); i++) {
-                int temp[] = list.get(i);
-
-                strb.insert(temp[0] + offset, "<b>");
-                offset += 3;
-                strb.insert(temp[1] + offset + 1, "</b>");
-                offset += 4;
+            if (b < s.length() - 1) {
+                str.append(s.substring(b + 1, s.length()));
             }
-            return strb.toString();
+            return str.toString();
         }
 
         public List<int[]> KMP(String s, String p) {
@@ -82,14 +125,14 @@ class AddBoldTagInString {
                 if (cs == cp) {
                     if (pPoints + 1 == pLen) {
                         ans.add(new int[]{sPoints - pLen + 1, sPoints});
-                        if (pPoints <= 0) {
-                            sPoints++;
-                        }
-                        pPoints = pPoints > 0 ? prefixTable[pPoints - 1] : 0;
+//                        pPoints=0;
+//                        sPoints=sPoints-pLen+2;
+                        pPoints = prefixTable[pPoints];
                         if (pPoints < 0) {
                             sPoints++;
                             pPoints = 0;
                         }
+
                     } else {
                         sPoints++;
                         pPoints++;
