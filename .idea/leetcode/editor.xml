@@ -1444,6 +1444,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[694]不同岛屿的数量.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[694]不同岛屿的数量.md" />
+              <option name="frontendQuestionId" value="leetcode.cn694" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[694]不同岛屿的数量.java" />
+              <option name="titleSlug" value="number-of-distinct-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[702]搜索长度未知的有序数组.java">
           <value>
             <LeetcodeEditor>
@@ -1452,6 +1463,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[702]搜索长度未知的有序数组.java" />
               <option name="titleSlug" value="search-in-a-sorted-array-of-unknown-size" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[708]循环有序列表的插入.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[708]循环有序列表的插入.md" />
+              <option name="frontendQuestionId" value="leetcode.cn708" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[708]循环有序列表的插入.java" />
+              <option name="titleSlug" value="insert-into-a-sorted-circular-linked-list" />
             </LeetcodeEditor>
           </value>
         </entry>
