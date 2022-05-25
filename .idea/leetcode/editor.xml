@@ -14,6 +14,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1056]易混淆数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1056]易混淆数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1056" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1056]易混淆数.java" />
+              <option name="titleSlug" value="confusing-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1059]从始点到终点的所有路径.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1059]从始点到终点的所有路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1059" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1059]从始点到终点的所有路径.java" />
+              <option name="titleSlug" value="all-paths-from-source-lead-to-destination" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[105]从前序与中序遍历序列构造二叉树.java">
           <value>
             <LeetcodeEditor>
@@ -22,6 +44,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[105]从前序与中序遍历序列构造二叉树.java" />
               <option name="titleSlug" value="construct-binary-tree-from-preorder-and-inorder-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1060]有序数组中的缺失元素.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1060]有序数组中的缺失元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1060" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1060]有序数组中的缺失元素.java" />
+              <option name="titleSlug" value="missing-element-in-sorted-array" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1180,6 +1213,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[489]扫地机器人.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[489]扫地机器人.md" />
+              <option name="frontendQuestionId" value="leetcode.cn489" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[489]扫地机器人.java" />
+              <option name="titleSlug" value="robot-room-cleaner" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[490]迷宫.java">
           <value>
             <LeetcodeEditor>
@@ -1529,6 +1573,50 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[742]二叉树最近的叶节点.java" />
               <option name="titleSlug" value="closest-leaf-in-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[755]倒水.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[755]倒水.md" />
+              <option name="frontendQuestionId" value="leetcode.cn755" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[755]倒水.java" />
+              <option name="titleSlug" value="pour-water" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[760]找出变位映射.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[760]找出变位映射.md" />
+              <option name="frontendQuestionId" value="leetcode.cn760" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[760]找出变位映射.java" />
+              <option name="titleSlug" value="find-anagram-mappings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[776]拆分二叉搜索树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[776]拆分二叉搜索树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn776" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[776]拆分二叉搜索树.java" />
+              <option name="titleSlug" value="split-bst" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[800]相似 RGB 颜色.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[800]相似 RGB 颜色.md" />
+              <option name="frontendQuestionId" value="leetcode.cn800" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[800]相似 RGB 颜色.java" />
+              <option name="titleSlug" value="similar-rgb-color" />
             </LeetcodeEditor>
           </value>
         </entry>
