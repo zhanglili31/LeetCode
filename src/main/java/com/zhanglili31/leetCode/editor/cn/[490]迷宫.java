@@ -13,13 +13,13 @@ class TheMaze {
     public static void main(String[] args) {
         Solution solution = new TheMaze().new Solution();
         TreeNode root = CreateTree.deserialize("[1,2,3,4,5,6,7,8,9]");
-        int[][] a = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
+        int[][] a = {{0, 0, 0, 0, 1, 0, 0}, {0, 0, 1, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 1}, {0, 1, 0, 0, 0, 0, 0}, {0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0}, {0, 0, 1, 0, 0, 0, 1}, {0, 0, 0, 0, 1, 0, 0}};
         String testStr = "hello";
         String strArray[] = {"wrt", "wrf"};
         char[] charArray = {'t', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e'};
         int temp[] = CreateArray.getArray(20, 100);
         System.out.println(Arrays.toString(temp));
-        System.out.println(solution);
+        System.out.println(solution.hasPath(a, new int[]{0, 0}, new int[]{8, 6}));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -27,42 +27,53 @@ class TheMaze {
         int m = 0;
         int n = 0;
         int[][] direction = {{0, 1}, {1, 0}, {-1, 0}, {0, -1}};
+        int[][] reDirections = {{0, -1}, {-1, 0}, {1, 0}, {0, 1}};
+        int[][][] path;
 
         public boolean hasPath(int[][] maze, int[] start, int[] destination) {
             this.m = maze.length;
             this.n = maze[0].length;
-            return DFS(maze, start, destination, null);
+            path = new int[m][n][4];
+
+            return DFS(maze, start, destination, -1);
         }
 
-        public boolean DFS(int[][] maze, int[] start, int[] destination, int[] dir) {
+        public boolean DFS(int[][] maze, int[] start, int[] destination, int d) {
             int a = start[0];
             int b = start[1];
             if (a == destination[0] && b == destination[1]) {
-                if (dir != null && (
-                        a + dir[0] < 0 || a + dir[0] >= m
-                                || b + dir[1] < 0 || b + dir[1] >= n
-                                || maze[a + dir[0]][b + dir[1]] == 1
+                if (d != -1 && (
+                        a + direction[d][0] < 0 || a + direction[d][0] >= m
+                                || b + direction[d][1] < 0 || b + direction[d][1] >= n
+                                || maze[a + direction[d][0]][b + direction[d][1]] == 1
                 )
                 ) {
                     return true;
                 }
-            }else{
+            } else if (d != -1) {
                 //标记为经过
-                maze[a][b] = -1;
+                path[a][b][d] = -1;
             }
-
             boolean ans = false;
-            for (int i = 0; i < direction.length; i++) {
-                int x = direction[i][0];
-                int y = direction[i][1];
-                int[] next = {a + x, b + y};
-                if (next[0] < m && next[0] >= 0 && next[1] < n && next[1] >= 0 && maze[next[0]][next[1]] == 0) {
-                    ans = DFS(maze, next, destination, direction[i]);
-                    if (ans)
-                        return ans;
+            if (d != -1 && a + direction[d][0] >= 0 && a + direction[d][0] < m && b + direction[d][1] >= 0 && b + direction[d][1] < n && maze[a + direction[d][0]][b + direction[d][1]] != 1 && path[a + direction[d][0]][b + direction[d][1]][d] != -1) {
+                ans = DFS(maze, new int[]{a + direction[d][0], b + direction[d][1]}, destination, d);
+
+            } else {
+                for (int i = 0; i < direction.length; i++) {
+                    if (d != -1 && reDirections[d][0] == direction[i][0] && reDirections[d][1] == direction[i][1])
+                        continue;
+                    int x = direction[i][0];
+                    int y = direction[i][1];
+                    int[] next = {a + x, b + y};
+                    if (next[0] < m && next[0] >= 0 && next[1] < n && next[1] >= 0 && maze[next[0]][next[1]] == 0 && path[next[0]][next[1]][i] != -1) {
+                        ans = DFS(maze, next, destination, i);
+                        if (ans)
+                            return ans;
+                    }
                 }
             }
-            return false;
+
+            return ans;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
