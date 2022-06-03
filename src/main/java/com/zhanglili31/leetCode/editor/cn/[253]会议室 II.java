@@ -1,11 +1,10 @@
 package com.zhanglili31.leetCode.editor.cn;
 
+import com.zhanglili31.leetCode.editor.cn.utils.CreateArray;
 import com.zhanglili31.leetCode.editor.cn.utils.CreateTree;
 import com.zhanglili31.leetCode.editor.cn.utils.TreeNode;
-import com.zhanglili31.leetCode.editor.cn.utils.CreateArray;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 //253 会议室 II
 //2022-05-04 03:33:32
@@ -24,6 +23,7 @@ class MeetingRoomsIi {
     class Solution {
         //参考上下车问题：https://leetcode.cn/problems/meeting-rooms-ii/solution/tu-jie-zhuan-hua-wei-shang-xia-che-wen-t-uy2q/
         //注意：排序时，遇到一个会议结束时间和另一个会议开始时间一样的，先下车再上车。
+        //关键点：上车时间和下车时间分开排序。
         public int minMeetingRooms(int[][] intervals) {
             int n = intervals.length;
             int array[][] = new int[2 * n][2];
