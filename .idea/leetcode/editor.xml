@@ -14,6 +14,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1055]形成字符串的最短路径.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1055]形成字符串的最短路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1055" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1055]形成字符串的最短路径.java" />
+              <option name="titleSlug" value="shortest-way-to-form-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1056]易混淆数.java">
           <value>
             <LeetcodeEditor>
@@ -33,6 +44,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1057]校园自行车分配.java" />
               <option name="titleSlug" value="campus-bikes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1058]最小化舍入误差以满足目标.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1058]最小化舍入误差以满足目标.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1058" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1058]最小化舍入误差以满足目标.java" />
+              <option name="titleSlug" value="minimize-rounding-error-to-meet-target" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -66,6 +88,61 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1060]有序数组中的缺失元素.java" />
               <option name="titleSlug" value="missing-element-in-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1061]按字典序排列最小的等效字符串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1061]按字典序排列最小的等效字符串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1061" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1061]按字典序排列最小的等效字符串.java" />
+              <option name="titleSlug" value="lexicographically-smallest-equivalent-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1062]最长重复子串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1062]最长重复子串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1062" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1062]最长重复子串.java" />
+              <option name="titleSlug" value="longest-repeating-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1063]有效子数组的数目.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1063]有效子数组的数目.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1063" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1063]有效子数组的数目.java" />
+              <option name="titleSlug" value="number-of-valid-subarrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1064]不动点.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1064]不动点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1064" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1064]不动点.java" />
+              <option name="titleSlug" value="fixed-point" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1065]字符串的索引对.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1065]字符串的索引对.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1065" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1065]字符串的索引对.java" />
+              <option name="titleSlug" value="index-pairs-of-a-string" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1070,6 +1147,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[40]组合总和 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[40]组合总和 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn40" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[40]组合总和 II.java" />
+              <option name="titleSlug" value="combination-sum-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[411]最短独占单词缩写.java">
           <value>
             <LeetcodeEditor>
@@ -1873,6 +1961,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[774]最小化去加油站的最大距离.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[774]最小化去加油站的最大距离.md" />
+              <option name="frontendQuestionId" value="leetcode.cn774" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[774]最小化去加油站的最大距离.java" />
+              <option name="titleSlug" value="minimize-max-distance-to-gas-station" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[776]拆分二叉搜索树.java">
           <value>
             <LeetcodeEditor>
@@ -2159,6 +2258,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 31]栈的压入、弹出序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[剑指 Offer 31]栈的压入、弹出序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 31" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 31]栈的压入、弹出序列.java" />
+              <option name="titleSlug" value="zhan-de-ya-ru-dan-chu-xu-lie-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 35]复杂链表的复制.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[剑指 Offer 35]复杂链表的复制.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 35" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 35]复杂链表的复制.java" />
+              <option name="titleSlug" value="fu-za-lian-biao-de-fu-zhi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 39]数组中出现次数超过一半的数字.java">
           <value>
             <LeetcodeEditor>
@@ -2167,6 +2288,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 39]数组中出现次数超过一半的数字.java" />
               <option name="titleSlug" value="shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 40]最小的k个数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[剑指 Offer 40]最小的k个数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 40" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 40]最小的k个数.java" />
+              <option name="titleSlug" value="zui-xiao-de-kge-shu-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
