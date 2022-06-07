@@ -146,6 +146,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1085]最小元素各数位之和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1085]最小元素各数位之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1085" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1085]最小元素各数位之和.java" />
+              <option name="titleSlug" value="sum-of-digits-in-the-minimum-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1087]花括号展开.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1087]花括号展开.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1087" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1087]花括号展开.java" />
+              <option name="titleSlug" value="brace-expansion" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[10]正则表达式匹配.java">
           <value>
             <LeetcodeEditor>
@@ -154,6 +176,39 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[10]正则表达式匹配.java" />
               <option name="titleSlug" value="regular-expression-matching" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1100]长度为 K 的无重复字符子串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1100]长度为 K 的无重复字符子串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1100" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1100]长度为 K 的无重复字符子串.java" />
+              <option name="titleSlug" value="find-k-length-substrings-with-no-repeated-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1101]彼此熟识的最早时间.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1101]彼此熟识的最早时间.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1101" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1101]彼此熟识的最早时间.java" />
+              <option name="titleSlug" value="the-earliest-moment-when-everyone-become-friends" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1120]子树的最大平均值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1120]子树的最大平均值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1120" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1120]子树的最大平均值.java" />
+              <option name="titleSlug" value="maximum-average-subtree" />
             </LeetcodeEditor>
           </value>
         </entry>
