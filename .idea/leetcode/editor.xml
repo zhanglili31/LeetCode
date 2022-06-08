@@ -146,6 +146,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1066]校园自行车分配 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1066]校园自行车分配 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1066" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1066]校园自行车分配 II.java" />
+              <option name="titleSlug" value="campus-bikes-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1067]范围内的数字计数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1067]范围内的数字计数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1067" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1067]范围内的数字计数.java" />
+              <option name="titleSlug" value="digit-count-in-range" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1085]最小元素各数位之和.java">
           <value>
             <LeetcodeEditor>
@@ -209,6 +231,39 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1120]子树的最大平均值.java" />
               <option name="titleSlug" value="maximum-average-subtree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1121]将数组分成几个递增序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1121]将数组分成几个递增序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1121" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1121]将数组分成几个递增序列.java" />
+              <option name="titleSlug" value="divide-array-into-increasing-sequences" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1136]平行课程.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1136]平行课程.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1136" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1136]平行课程.java" />
+              <option name="titleSlug" value="parallel-courses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1151]最少交换次数来组合所有的 1.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1151]最少交换次数来组合所有的 1.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1151" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1151]最少交换次数来组合所有的 1.java" />
+              <option name="titleSlug" value="minimum-swaps-to-group-all-1s-together" />
             </LeetcodeEditor>
           </value>
         </entry>
