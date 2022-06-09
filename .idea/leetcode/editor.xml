@@ -465,6 +465,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[233]数字 1 的个数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[233]数字 1 的个数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn233" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[233]数字 1 的个数.java" />
+              <option name="titleSlug" value="number-of-digit-one" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[236]二叉树的最近公共祖先.java">
           <value>
             <LeetcodeEditor>
