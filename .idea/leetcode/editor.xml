@@ -322,6 +322,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1135]最低成本联通所有城市.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1135]最低成本联通所有城市.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1135" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1135]最低成本联通所有城市.java" />
+              <option name="titleSlug" value="connecting-cities-with-minimum-cost" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1136]平行课程.java">
           <value>
             <LeetcodeEditor>
@@ -2145,6 +2156,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[742]二叉树最近的叶节点.java" />
               <option name="titleSlug" value="closest-leaf-in-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[743]网络延迟时间.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[743]网络延迟时间.md" />
+              <option name="frontendQuestionId" value="leetcode.cn743" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[743]网络延迟时间.java" />
+              <option name="titleSlug" value="network-delay-time" />
             </LeetcodeEditor>
           </value>
         </entry>
