@@ -432,6 +432,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1198]找出所有行中最小公共元素.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1198]找出所有行中最小公共元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1198" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1198]找出所有行中最小公共元素.java" />
+              <option name="titleSlug" value="find-smallest-common-element-in-all-rows" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1213]三个有序数组的交集.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1213]三个有序数组的交集.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1213" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1213]三个有序数组的交集.java" />
+              <option name="titleSlug" value="intersection-of-three-sorted-arrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[124]二叉树中的最大路径和.java">
           <value>
             <LeetcodeEditor>
