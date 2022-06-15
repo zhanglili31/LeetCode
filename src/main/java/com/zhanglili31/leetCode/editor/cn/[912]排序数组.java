@@ -31,7 +31,7 @@ class SortAnArray {
 
         }
 
-
+        //堆排序
         public void heapSort(int[] nums, int n) {
             if (n == 1) {
                 return;
@@ -47,7 +47,7 @@ class SortAnArray {
                 heapAdjust(nums, 0, i);
             }
         }
-
+        //调整堆
         public void heapAdjust(int[] num, int i, int n) {
             int max = i;
             int left = i * 2 + 1;
