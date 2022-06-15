@@ -26,7 +26,9 @@ class DesignInMemoryFileSystem {
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
+    //https://leetcode.cn/problems/design-in-memory-file-system/solution/she-ji-nei-cun-wen-jian-xi-tong-by-leetcode/
     class FileSystem {
+        //Dir 就是一个目录，Dir中可以存放子目录，也可以存放文件
         class Dir {
             HashMap<String, Dir> dirs = new HashMap<>();
             HashMap<String, String> files = new HashMap<>();
