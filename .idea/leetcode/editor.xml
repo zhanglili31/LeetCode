@@ -575,6 +575,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1216]验证回文字符串 III.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1216]验证回文字符串 III.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1216" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1216]验证回文字符串 III.java" />
+              <option name="titleSlug" value="valid-palindrome-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1228]等差数列中缺失的数字.java">
           <value>
             <LeetcodeEditor>
@@ -649,6 +660,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1245]树的直径.java" />
               <option name="titleSlug" value="tree-diameter" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1246]删除回文子数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1246]删除回文子数组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1246" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1246]删除回文子数组.java" />
+              <option name="titleSlug" value="palindrome-removal" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2115,6 +2137,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[5]最长回文子串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[5]最长回文子串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn5" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[5]最长回文子串.java" />
+              <option name="titleSlug" value="longest-palindromic-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[604]迭代压缩字符串.java">
           <value>
             <LeetcodeEditor>
@@ -3094,6 +3127,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 66]构建乘积数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[剑指 Offer 66]构建乘积数组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 66" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 66]构建乘积数组.java" />
+              <option name="titleSlug" value="gou-jian-cheng-ji-shu-zu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer II 020]回文子字符串的个数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[剑指 Offer II 020]回文子字符串的个数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 020" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer II 020]回文子字符串的个数.java" />
+              <option name="titleSlug" value="a7VOhD" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[面试题 01.01]判定字符是否唯一.java">
           <value>
             <LeetcodeEditor>
@@ -3124,6 +3179,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[面试题 01.03]URL化.java" />
               <option name="titleSlug" value="string-to-url-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[面试题 03.02]栈的最小值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[面试题 03.02]栈的最小值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 03.02" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[面试题 03.02]栈的最小值.java" />
+              <option name="titleSlug" value="min-stack-lcci" />
             </LeetcodeEditor>
           </value>
         </entry>
