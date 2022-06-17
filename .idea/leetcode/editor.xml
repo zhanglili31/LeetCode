@@ -696,6 +696,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1257]最小公共区域.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1257]最小公共区域.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1257" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1257]最小公共区域.java" />
+              <option name="titleSlug" value="smallest-common-region" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[125]验证回文串.java">
           <value>
             <LeetcodeEditor>

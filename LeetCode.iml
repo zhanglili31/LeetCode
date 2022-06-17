@@ -11,5 +11,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.eclipsesource.minimal-json:minimal-json:0.9.5" level="project" />
   </component>
 </module>
