@@ -12,3 +12,5 @@ LeetCode刷题笔记:https://leetcode-cn.com/problemset/all/
 纯Leetcode 相关：https://github.com/labuladong/fucking-algorithm
 
 刷题插件：leetcode editor 一定要使用这个插件，可以省去很多繁琐的事情。
+
+常copy代码：
