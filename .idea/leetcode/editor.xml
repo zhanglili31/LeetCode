@@ -740,6 +740,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1259]不相交的握手.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1259]不相交的握手.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1259" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1259]不相交的握手.java" />
+              <option name="titleSlug" value="handshakes-that-dont-cross" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[125]验证回文串.java">
           <value>
             <LeetcodeEditor>
@@ -792,6 +803,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1273]删除树节点.java" />
               <option name="titleSlug" value="delete-tree-nodes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1274]矩形内船只的数目.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1274]矩形内船只的数目.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1274" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1274]矩形内船只的数目.java" />
+              <option name="titleSlug" value="number-of-ships-in-a-rectangle" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1851,6 +1873,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[38]外观数列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[38]外观数列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn38" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[38]外观数列.java" />
+              <option name="titleSlug" value="count-and-say" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[393]UTF-8 编码验证.java">
           <value>
             <LeetcodeEditor>
@@ -2013,6 +2046,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[459]重复的子字符串.java" />
               <option name="titleSlug" value="repeated-substring-pattern" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[45]跳跃游戏 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[45]跳跃游戏 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn45" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[45]跳跃游戏 II.java" />
+              <option name="titleSlug" value="jump-game-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3091,6 +3135,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 35]复杂链表的复制.java" />
               <option name="titleSlug" value="fu-za-lian-biao-de-fu-zhi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 38]字符串的排列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[剑指 Offer 38]字符串的排列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 38" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[剑指 Offer 38]字符串的排列.java" />
+              <option name="titleSlug" value="zi-fu-chuan-de-pai-lie-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
