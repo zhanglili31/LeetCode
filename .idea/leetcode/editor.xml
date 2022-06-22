@@ -1037,6 +1037,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[18]四数之和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[18]四数之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn18" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[18]四数之和.java" />
+              <option name="titleSlug" value="4sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[190]颠倒二进制位.java">
           <value>
             <LeetcodeEditor>
@@ -1785,6 +1796,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[341]扁平化嵌套列表迭代器.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[341]扁平化嵌套列表迭代器.md" />
+              <option name="frontendQuestionId" value="leetcode.cn341" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[341]扁平化嵌套列表迭代器.java" />
+              <option name="titleSlug" value="flatten-nested-list-iterator" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[344]反转字符串.java">
           <value>
             <LeetcodeEditor>
@@ -1815,6 +1837,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[348]设计井字棋.java" />
               <option name="titleSlug" value="design-tic-tac-toe" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[349]两个数组的交集.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[349]两个数组的交集.md" />
+              <option name="frontendQuestionId" value="leetcode.cn349" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[349]两个数组的交集.java" />
+              <option name="titleSlug" value="intersection-of-two-arrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[350]两个数组的交集 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[350]两个数组的交集 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn350" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[350]两个数组的交集 II.java" />
+              <option name="titleSlug" value="intersection-of-two-arrays-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1961,6 +2005,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[371]两整数之和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[371]两整数之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn371" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[371]两整数之和.java" />
+              <option name="titleSlug" value="sum-of-two-integers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[378]有序矩阵中第 K 小的元素.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[378]有序矩阵中第 K 小的元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn378" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[378]有序矩阵中第 K 小的元素.java" />
+              <option name="titleSlug" value="kth-smallest-element-in-a-sorted-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[379]电话目录管理系统.java">
           <value>
             <LeetcodeEditor>
@@ -1969,6 +2035,39 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[379]电话目录管理系统.java" />
               <option name="titleSlug" value="design-phone-directory" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[380]O(1) 时间插入、删除和获取随机元素.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[380]O(1) 时间插入、删除和获取随机元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn380" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[380]O(1) 时间插入、删除和获取随机元素.java" />
+              <option name="titleSlug" value="insert-delete-getrandom-o1" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[384]打乱数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[384]打乱数组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn384" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[384]打乱数组.java" />
+              <option name="titleSlug" value="shuffle-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[387]字符串中的第一个唯一字符.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[387]字符串中的第一个唯一字符.md" />
+              <option name="frontendQuestionId" value="leetcode.cn387" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[387]字符串中的第一个唯一字符.java" />
+              <option name="titleSlug" value="first-unique-character-in-a-string" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1991,6 +2090,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[393]UTF-8 编码验证.java" />
               <option name="titleSlug" value="utf-8-validation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[395]至少有 K 个重复字符的最长子串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[395]至少有 K 个重复字符的最长子串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn395" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[395]至少有 K 个重复字符的最长子串.java" />
+              <option name="titleSlug" value="longest-substring-with-at-least-k-repeating-characters" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2046,6 +2156,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[411]最短独占单词缩写.java" />
               <option name="titleSlug" value="minimum-unique-word-abbreviation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[412]Fizz Buzz.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[412]Fizz Buzz.md" />
+              <option name="frontendQuestionId" value="leetcode.cn412" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[412]Fizz Buzz.java" />
+              <option name="titleSlug" value="fizz-buzz" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2145,6 +2266,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[444]序列重建.java" />
               <option name="titleSlug" value="sequence-reconstruction" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[454]四数相加 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[454]四数相加 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn454" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[454]四数相加 II.java" />
+              <option name="titleSlug" value="4sum-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
