@@ -1,12 +1,11 @@
 package com.zhanglili31.leetCode.editor.cn;
-
+import com.zhanglili31.leetCode.editor.cn.utils.CreateListNode;
 import com.zhanglili31.leetCode.editor.cn.utils.CreateTree;
 import com.zhanglili31.leetCode.editor.cn.utils.TreeNode;
 import com.zhanglili31.leetCode.editor.cn.utils.CreateArray;
 import java.util.Arrays;
 //${question.frontendQuestionId} ${question.title}
 //$!velocityTool.date()
-///Users/zhanglili/IdeaProjects/LeetCode/src/main/java/com/zhanglili31
 class $!velocityTool.camelCaseName(${question.titleSlug}) {
 
     public static void main(String[] args) {
@@ -14,6 +13,7 @@ class $!velocityTool.camelCaseName(${question.titleSlug}) {
         int dir4[][] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
         Solution solution = new $!velocityTool.camelCaseName(${question.titleSlug})().new Solution();
         TreeNode root = CreateTree.deserialize("[1,2,3,4,5,6,7,8,9]");
+        ListNode listNode = CreateListNode.stringToListNode("[1,2,3]");
         int [][]a={{1,1,1},{1,0,1},{1,1,1}};
         String testStr="hello";
         String strArray[] = {"wrt","wrf"};

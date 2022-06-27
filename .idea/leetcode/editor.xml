@@ -1037,6 +1037,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[16]最接近的三数之和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[16]最接近的三数之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn16" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[16]最接近的三数之和.java" />
+              <option name="titleSlug" value="3sum-closest" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[170]两数之和 III - 数据结构设计.java">
           <value>
             <LeetcodeEditor>
@@ -1202,6 +1213,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[231]2 的幂.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[231]2 的幂.md" />
+              <option name="frontendQuestionId" value="leetcode.cn231" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[231]2 的幂.java" />
+              <option name="titleSlug" value="power-of-two" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[233]数字 1 的个数.java">
           <value>
             <LeetcodeEditor>
@@ -1331,6 +1353,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[249]移位字符串分组.java" />
               <option name="titleSlug" value="group-shifted-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[24]两两交换链表中的节点.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[24]两两交换链表中的节点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn24" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[24]两两交换链表中的节点.java" />
+              <option name="titleSlug" value="swap-nodes-in-pairs" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2764,6 +2797,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[557]反转字符串中的单词 III.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[557]反转字符串中的单词 III.md" />
+              <option name="frontendQuestionId" value="leetcode.cn557" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[557]反转字符串中的单词 III.java" />
+              <option name="titleSlug" value="reverse-words-in-a-string-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[562]矩阵中最长的连续1线段.java">
           <value>
             <LeetcodeEditor>
@@ -2860,6 +2904,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[616]给字符串添加加粗标签.java" />
               <option name="titleSlug" value="add-bold-tag-in-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[61]旋转链表.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[61]旋转链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn61" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[61]旋转链表.java" />
+              <option name="titleSlug" value="rotate-list" />
             </LeetcodeEditor>
           </value>
         </entry>
