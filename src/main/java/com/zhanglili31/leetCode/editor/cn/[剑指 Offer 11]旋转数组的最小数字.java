@@ -24,22 +24,31 @@ class XuanZhuanShuZuDeZuiXiaoShuZiLcof {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        public int minArray(int[] numbers) {
-            int i = 0, j = numbers.length-1;
-
-            int p = 0;
-            while (i <= j) {
-                if (j - i <= 1)
-                    return Math.min(numbers[i], numbers[j]);
-                p = i + (j - i) / 2;
-                if (numbers[p] >= numbers[j]) {
-
-                    i = p;
-                } else {
-                    j = p;
-                }
+        //方法一：暴力方法
+        public int minArray1(int[] numbers) {
+            int ans = Integer.MAX_VALUE;
+            for (int i = 0; i < numbers.length; i++) {
+                ans = Math.min(numbers[i], ans);
             }
-            return -1;
+            return ans;
+        }
+        //方法二：二分+分治
+        public int minArray(int[] numbers) {
+            return recursion(numbers, 0, numbers.length - 1);
+
+        }
+        private int recursion(int[]numbers,int left,int right) {
+            if (right - left <= 1) {
+                return Math.min(numbers[left], numbers[right]);
+            }
+            int mid=left+(right-left)/2;
+            if (numbers[mid] > numbers[right]) {
+                return recursion(numbers, mid+1, right);
+            }
+            if (numbers[mid]  < numbers[left]) {
+                return recursion(numbers, left + 1, mid);
+            }
+            return Math.min(recursion(numbers, left, mid - 1), recursion(numbers, mid + 1, right));
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
