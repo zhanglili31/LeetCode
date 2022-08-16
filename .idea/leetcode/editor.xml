@@ -872,6 +872,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1302]层数最深叶子节点的和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[1302]层数最深叶子节点的和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1302" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1302]层数最深叶子节点的和.java" />
+              <option name="titleSlug" value="deepest-leaves-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[130]被围绕的区域.java">
           <value>
             <LeetcodeEditor>
