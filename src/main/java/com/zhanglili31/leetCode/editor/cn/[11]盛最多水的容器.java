@@ -11,6 +11,7 @@ class ContainerWithMostWater{
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+        //参考题解：https://leetcode.cn/problems/container-with-most-water/solution/container-with-most-water-shuang-zhi-zhen-fa-yi-do/
     public int maxArea(int[] height) {
         int i=0,j=height.length-1;
         int res=0;
@@ -27,6 +28,7 @@ class Solution {
         }
         return res;
     }
+
 }
 //leetcode submit region end(Prohibit modification and deletion)
 

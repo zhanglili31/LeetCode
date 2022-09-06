@@ -1,8 +1,5 @@
 package com.zhanglili31.leetCode.editor.cn;
 
-import com.zhanglili31.leetCode.editor.cn.utils.CreateTree;
-import com.zhanglili31.leetCode.editor.cn.utils.TreeNode;
-
 //208 实现 Trie (前缀树)
 //2022-05-02 07:08:06
 class ImplementTriePrefixTree {
@@ -16,6 +13,7 @@ class ImplementTriePrefixTree {
 //    }
 //
     //leetcode submit region begin(Prohibit modification and deletion)
+
     class Trie {
 
         private Trie[] children;
@@ -53,8 +51,9 @@ class ImplementTriePrefixTree {
                 ch = word.charAt(i);
                 node = node.children[ch - 'a'];
                 i++;
-                if (node == null)
+                if (node == null) {
                     return false;
+                }
             }
             return node.isEnd;
 

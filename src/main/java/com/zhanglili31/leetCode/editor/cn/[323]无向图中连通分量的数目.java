@@ -21,6 +21,56 @@ class NumberOfConnectedComponentsInAnUndirectedGraph {
         System.out.println(solution);
     }
 
+    class Solution2 {
+        class Union {
+            int fa[];
+            int rank[];
+
+            public Union(int n) {
+                fa = new int[n + 1];
+                rank = new int[n + 1];
+                for (int i = 0; i < fa.length; i++) {
+                    fa[i] = i;
+                }
+            }
+
+            public int find(int x) {
+                if (fa[x] == x) {
+                    return fa[x];
+                } else {
+                    fa[x] = find(fa[x]);
+                    return fa[x];
+                }
+            }
+
+            public void merge(int i, int j) {
+                int x = fa[i];
+                int y = fa[j];
+                if (rank[x] > rank[y]) {
+                    fa[y] = x;
+                } else {
+                    fa[x] = y;
+                }
+                if (rank[y] == rank[x] && x != y) {
+                    rank[y]++;
+                }
+            }
+        }
+
+        public int countComponents(int n, int[][] edges) {
+            Union union = new Union(n + 1);
+            for (int i = 0; i < edges.length; i++) {
+                if (union.find(edges[i][0]) != union.find(edges[i][1])) {
+                    union.merge(edges[i][0], edges[i][1]);
+                    n--;
+                }
+            }
+            return n;
+
+        }
+    }
+
+
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         class Union {
@@ -59,9 +109,10 @@ class NumberOfConnectedComponentsInAnUndirectedGraph {
 
         public int countComponents(int n, int[][] edges) {
             Union union = new Union(n);
-            int head=n;
+            int head = n;
             for (int i = 0; i < edges.length; i++) {
-                if(union.find(edges[i][0])==union.find(edges[i][1]))continue;
+                if (union.find(edges[i][0]) == union.find(edges[i][1]))
+                    continue;
                 union.merge(edges[i][0], edges[i][1]);
                 n--;
             }

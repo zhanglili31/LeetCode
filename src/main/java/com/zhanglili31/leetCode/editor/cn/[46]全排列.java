@@ -51,6 +51,33 @@ class Permutations {
             }
             return res;
         }
+
+        //回溯的思想
+        public List<List<Integer>> permute2(int[] nums) {
+            List<List<Integer>> ans = new ArrayList<>();
+            backTrace(ans, new ArrayList<Integer>(), nums, new HashSet<>());
+            return ans;
+        }
+
+        public void backTrace(List<List<Integer>> ans, List<Integer> cur, int[] nums, Set<Integer> set) {
+            if (cur.size() == nums.length) {
+                List<Integer> temp = new ArrayList<>();
+                for (int i = 0; i < cur.size(); i++) {
+                    temp.add(cur.get(i));
+                }
+                ans.add(temp);
+            }
+            for (int i = 0; i < nums.length; i++) {
+                if (set.contains(i)) {
+                    continue;
+                }
+                cur.add(nums[i]);
+                set.add(i);
+                backTrace(ans, cur, nums, set);
+                set.remove(i);
+                cur.remove(cur.size()-1);
+            }
+        }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
