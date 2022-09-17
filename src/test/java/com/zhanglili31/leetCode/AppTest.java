@@ -9,8 +9,9 @@ public class AppTest extends TestCase {
 
     //
     public void testApp() {
-
-
+        System.out.println(3*0.1 == 0.3);
     }
+
+
 
 }

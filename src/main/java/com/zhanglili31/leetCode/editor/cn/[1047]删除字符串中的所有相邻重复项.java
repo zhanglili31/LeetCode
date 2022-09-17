@@ -5,22 +5,44 @@ package com.zhanglili31.leetCode.editor.cn;
 class RemoveAllAdjacentDuplicatesInString {
     public static void main(String[] args) {
         Solution solution = new RemoveAllAdjacentDuplicatesInString().new Solution();
-        //System.out.println(solution);
+        System.out.println(solution.removeDuplicates("abbaca"));
 
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        //栈方案：https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/solution/tu-jie-guan-fang-tui-jian-ti-jie-shan-ch-x8iz/
         public String removeDuplicates(String S) {
-            for (int i = 0, j = 1; j < S.length() && i < S.length(); ) {
-                if (S.charAt(i) == S.charAt(j)) {
-                    S = S.substring(0, j) + S.substring(j);
-                }else{
-                    i++;
-                    j++;
+            StringBuilder sb = new StringBuilder();
+            int top = -1;
+            for (int i = 0; i < S.length(); i++) {
+                if (top >= 0 && sb.charAt(top) == S.charAt(i)) {
+                    sb.deleteCharAt(top);
+                    top--;
+                } else {
+                    sb.append(S.charAt(i));
+                    top++;
+                }
+
+            }
+            return sb.toString();
+        }
+
+        public String removeDuplicates2(String S) {
+            //贪心 思路没有问题，但是出现了超时
+            boolean flag = true;
+            StringBuilder sb = new StringBuilder(S);
+            while (flag) {
+                flag = false;
+                for (int i = 0; i < sb.length() - 1; i++) {
+                    if (sb.charAt(i) == sb.charAt(i + 1)) {
+                        sb.delete(i, i + 2);
+                        flag = true;
+                        break;
+                    }
                 }
             }
-            return S;
+            return sb.toString();
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -69,6 +69,7 @@ class LongestPalindromicSubstring {
                     if (j >= n) {
                         break;
                     }
+                    //j-1<i+1 这个条件是用来处理："cbbd" 这种情况的
                     if (s.charAt(i) == s.charAt(j) && (j - 1 < i + 1 || dp[i + 1][j - 1])) {
                         dp[i][j] = true;
                         if (ans.length() < j - i + 1) {

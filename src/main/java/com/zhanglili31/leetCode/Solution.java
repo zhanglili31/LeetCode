@@ -1,18 +1,28 @@
 package com.zhanglili31.leetCode;
 
-class Solution {
-    public int maxSubArray(int[] nums) {
-        int dp[]=new int[nums.length];
-        dp[0] = nums[0];
-        int res=nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            if(dp[i-1]>0){
-                dp[i] = dp[i - 1] + nums[i];
-            }else{
-                dp[i] = nums[i];
-            }
-            res=res<dp[i]?dp[i]:res;
-        }
-        return res;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
+public class Solution {
+    int a=0;
+    String str="";
+    List<Integer> list = new ArrayList<>();
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (!(o instanceof Solution))
+            return false;
+        Solution solution = (Solution) o;
+        return a == solution.a && Objects.equals(str, solution.str) && Objects.equals(list, solution.list);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(a, str, list);
     }
 }
+//

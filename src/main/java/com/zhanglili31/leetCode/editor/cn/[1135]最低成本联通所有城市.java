@@ -132,7 +132,7 @@ class ConnectingCitiesWithMinimumCost {
         }
 
         private void findNeighbors(Map<Integer, List<Edge>> graph, Set<Integer> isVisited, Queue<Edge> queue, int i) {
-            List<Edge> list = graph.getOrDefault(i,new ArrayList<>());
+            List<Edge> list = graph.getOrDefault(i, new ArrayList<>());
             for (int j = 0; j < list.size(); j++) {
                 Edge edge = list.get(j);
                 if (!isVisited.contains(edge.dst)) {
