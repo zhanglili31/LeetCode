@@ -24,5 +24,6 @@ public class Solution {
     public int hashCode() {
         return Objects.hash(a, str, list);
     }
+
 }
 //
