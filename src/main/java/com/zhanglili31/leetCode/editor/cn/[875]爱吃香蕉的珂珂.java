@@ -7,14 +7,14 @@ import com.zhanglili31.leetCode.editor.cn.utils.TreeNode;
 
 import java.util.Arrays;
 
-//1004 最大连续1的个数 III
-//2022-10-17 03:36:48
-class MaxConsecutiveOnesIii {
+//875 爱吃香蕉的珂珂
+//2022-10-18 05:39:31
+class KokoEatingBananas {
 
     public static void main(String[] args) {
         int dir8[][] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}, {1, 1}, {1, -1}, {-1, 1}, {-1, -1}};
         int dir4[][] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-        Solution solution = new MaxConsecutiveOnesIii().new Solution();
+        Solution solution = new KokoEatingBananas().new Solution();
         TreeNode root = CreateTree.deserialize("[1,2,3,4,5,6,7,8,9]");
         ListNode listNode = CreateListNode.stringToListNode("[1,2,3]");
         int[][] a = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
@@ -22,37 +22,38 @@ class MaxConsecutiveOnesIii {
         String strArray[] = {"wrt", "wrf"};
         char[] charArray = {'t', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e'};
 //        int temp[] = CreateArray.getArray(20, 100);
-        int temp[] = {5, 3, 2, 2};
+        int temp[] = {805306368, 805306368, 805306368};
         System.out.println(Arrays.toString(temp));
-        System.out.println(solution);
+        System.out.println(solution.minEatingSpeed(temp, 1000000000));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        //滑动窗口，统计窗口内的0的个数
-        public int longestOnes(int[] nums, int k) {
-            int zeroCount[] = new int[nums.length + 1];
-            for (int i = 0; i < nums.length; i++) {
-                if (nums[i] == 0) {
-                    zeroCount[i + 1] = zeroCount[i] + 1;
+        public int minEatingSpeed(int[] piles, int h) {
+            int left = 1;
+            int right = 0;
+            for (int i = 0; i < piles.length; i++) {
+                right = Math.max(right, piles[i]);
+            }
+            int maxValue = right;
+            while (left <= right) {
+                int k = left + (right - left) / 2;
+                if (canEat(piles, k, h)) {
+                    maxValue = Math.min(k, maxValue);
+                    right = k - 1;
                 } else {
-                    zeroCount[i + 1] = zeroCount[i];
+                    left = k + 1;
                 }
             }
-            int window = nums.length;
-            while (window >= 0) {
-                for (int i = 0; i <= nums.length - window; i++) {
-                    int j = i + window;
-                    int count = zeroCount[j] - zeroCount[i];
-                    if (count <= k) {
-                        return window;
-                    }
-                }
-                window--;
-            }
-            return -1;
+            return maxValue;
         }
-        // todo 深入研究下二分查找和动态规划的解决方案
+
+        private boolean canEat(int[] piles, int k, int h) {
+            for (int i = 0; i < piles.length && h >= 0; i++) {
+                h -= (piles[i] + k - 1) / k;
+            }
+            return h >= 0;
+        }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
