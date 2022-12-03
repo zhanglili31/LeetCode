@@ -254,6 +254,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[108]将有序数组转换为二叉搜索树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[108]将有序数组转换为二叉搜索树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn108" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[108]将有序数组转换为二叉搜索树.java" />
+              <option name="titleSlug" value="convert-sorted-array-to-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[1099]小于 K 的两数之和.java">
           <value>
             <LeetcodeEditor>
@@ -1203,6 +1214,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[165]比较版本号.java" />
               <option name="titleSlug" value="compare-version-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[166]分数到小数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[166]分数到小数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn166" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[166]分数到小数.java" />
+              <option name="titleSlug" value="fraction-to-recurring-decimal" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -3485,6 +3507,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[604]迭代压缩字符串.java" />
               <option name="titleSlug" value="design-compressed-string-iterator" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[611]有效三角形的个数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/doc/content/[611]有效三角形的个数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn611" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/zhanglili31/leetCode/editor/cn/[611]有效三角形的个数.java" />
+              <option name="titleSlug" value="valid-triangle-number" />
             </LeetcodeEditor>
           </value>
         </entry>
